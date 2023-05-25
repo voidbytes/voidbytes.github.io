@@ -14,7 +14,7 @@
   "dependencies": {
     "hexo": "^7.0.0-rc1",
     "hexo-abbrlink": "^2.2.1",
-    "hexo-asset-image": "github:czqu/hexo-asset-image.git#master",
+    "hexo-asset-image": "https://github.com/czqu/hexo-asset-image#master",
     "hexo-auto-canonical": "^0.1.1",
     "hexo-butterfly-extjs": "^1.4.4",
     "hexo-cookieconsent": "^1.0.0",
