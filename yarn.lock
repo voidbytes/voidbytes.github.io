@@ -3702,9 +3702,9 @@ hexo-admin@^2.3.0:
     serve-static "^1.4.0"
     write-good "^0.10.0"
 
-"hexo-asset-image@https://github.com/czqu/hexo-asset-image#master":
+"hexo-asset-image@github:czqu/hexo-asset-image.git#master":
   version "0.0.3"
-  resolved "https://github.com/czqu/hexo-asset-image#f8a34bf7ebb7cc1730c23d2adfb484e0c44ae948"
+  resolved "https://codeload.github.com/czqu/hexo-asset-image/tar.gz/f8a34bf7ebb7cc1730c23d2adfb484e0c44ae948"
   dependencies:
     cheerio "^0.19.0"
 
