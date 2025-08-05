@@ -3,22 +3,22 @@
 
 
     <sitemap>
-        <loc>https://blog.voidbytes.com/post-sitemap.xml</loc>
+        <loc>https://voidbytes.com/post-sitemap.xml</loc>
         <lastmod>2023-08-24T08:00:00.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://blog.voidbytes.com/page-sitemap.xml</loc>
+        <loc>https://voidbytes.com/page-sitemap.xml</loc>
         <lastmod>2023-05-26T08:00:00.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://blog.voidbytes.com/category-sitemap.xml</loc>
+        <loc>https://voidbytes.com/category-sitemap.xml</loc>
         <lastmod>2023-08-24T08:00:00.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://blog.voidbytes.com/tag-sitemap.xml</loc>
+        <loc>https://voidbytes.com/tag-sitemap.xml</loc>
         <lastmod>2023-08-24T08:00:00.000Z</lastmod>
     </sitemap>
 
