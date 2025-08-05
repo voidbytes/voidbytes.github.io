@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /tags/
+Disallow: /categories/
+Allow:/
+
+sitemap: https://blog.voidbytes.com/sitemap.xml
+sitemap: https://blog.voidbytes.com/baidusitemap.xml
+sitemap: https://blog.voidbytes.com/atom.xml
+sitemap: https://blog.voidbytes.com/rss2.xml
+sitemap: https://blog.voidbytes.com/cn/baidusitemap.xml
