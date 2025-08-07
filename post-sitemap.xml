@@ -25,14 +25,6 @@
     </url>
 
     <url>
-        <loc>https://voidbytes.com/posts/1040342123/</loc>
-        <lastmod>2023-08-24T08:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://voidbytes.com/posts/2853285209/</loc>
         <lastmod>2023-08-24T08:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -41,31 +33,7 @@
     </url>
 
     <url>
-        <loc>https://voidbytes.com/posts/1362641175/</loc>
-        <lastmod>2023-08-24T08:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://voidbytes.com/posts/312572753/</loc>
-        <lastmod>2023-08-24T08:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://voidbytes.com/posts/209595582/</loc>
-        <lastmod>2023-08-24T08:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://voidbytes.com/posts/3216271943/</loc>
+        <loc>https://voidbytes.com/posts/1040342123/</loc>
         <lastmod>2023-08-24T08:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -81,7 +49,31 @@
     </url>
 
     <url>
-        <loc>https://voidbytes.com/posts/3984514586/</loc>
+        <loc>https://voidbytes.com/posts/209595582/</loc>
+        <lastmod>2023-08-24T08:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://voidbytes.com/posts/312572753/</loc>
+        <lastmod>2023-08-24T08:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://voidbytes.com/posts/3216271943/</loc>
+        <lastmod>2023-08-24T08:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://voidbytes.com/posts/1362641175/</loc>
         <lastmod>2023-08-24T08:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -90,6 +82,14 @@
 
     <url>
         <loc>https://voidbytes.com/posts/3795959674/</loc>
+        <lastmod>2023-08-24T08:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://voidbytes.com/posts/3984514586/</loc>
         <lastmod>2023-08-24T08:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -121,23 +121,7 @@
     </url>
 
     <url>
-        <loc>https://voidbytes.com/posts/4053882931/</loc>
-        <lastmod>2023-06-14T08:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://voidbytes.com/posts/1352723613/</loc>
-        <lastmod>2023-06-14T08:00:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://voidbytes.com/posts/314390907/</loc>
         <lastmod>2023-06-14T08:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -153,7 +137,23 @@
     </url>
 
     <url>
+        <loc>https://voidbytes.com/posts/314390907/</loc>
+        <lastmod>2023-06-14T08:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://voidbytes.com/posts/407384776/</loc>
+        <lastmod>2023-06-14T08:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://voidbytes.com/posts/4053882931/</loc>
         <lastmod>2023-06-14T08:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
