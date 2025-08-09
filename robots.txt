@@ -3,8 +3,8 @@ Disallow: /tags/
 Disallow: /categories/
 Allow:/
 
-sitemap: https://blog.voidbytes.com/sitemap.xml
-sitemap: https://blog.voidbytes.com/baidusitemap.xml
-sitemap: https://blog.voidbytes.com/atom.xml
-sitemap: https://blog.voidbytes.com/rss2.xml
-sitemap: https://blog.voidbytes.com/cn/baidusitemap.xml
+sitemap: https://voidbytes.com/sitemap.xml
+sitemap: https://voidbytes.com/baidusitemap.xml
+sitemap: https://voidbytes.com/atom.xml
+sitemap: https://voidbytes.com/rss2.xml
+sitemap: https://voidbytes.com/cn/baidusitemap.xml

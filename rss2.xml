@@ -65,6 +65,33 @@
     </item>
     
     <item>
+      <title>为什么要用消息队列？你项目中是怎么用的</title>
+      <link>https://voidbytes.com/posts/2853285209/</link>
+      <guid>https://voidbytes.com/posts/2853285209/</guid>
+      <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/2853285209/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Spring 事务失效的 12 种场景</title>
       <link>https://voidbytes.com/posts/1040342123/</link>
       <guid>https://voidbytes.com/posts/1040342123/</guid>
@@ -88,37 +115,6 @@
       
       
       <comments>https://voidbytes.com/posts/1040342123/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Java后端线上问题排查常用命令收藏</title>
-      <link>https://voidbytes.com/posts/1696090382/</link>
-      <guid>https://voidbytes.com/posts/1696090382/</guid>
-      <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;
-&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
-&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
-      
-      
-      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
-      
-      
-      <comments>https://voidbytes.com/posts/1696090382/#disqus_thread</comments>
       
     </item>
     
@@ -179,16 +175,20 @@
     </item>
     
     <item>
-      <title>为什么要用消息队列？你项目中是怎么用的</title>
-      <link>https://voidbytes.com/posts/2853285209/</link>
-      <guid>https://voidbytes.com/posts/2853285209/</guid>
+      <title>Java后端线上问题排查常用命令收藏</title>
+      <link>https://voidbytes.com/posts/1696090382/</link>
+      <guid>https://voidbytes.com/posts/1696090382/</guid>
       <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
+&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</description>
           
         
       
@@ -201,7 +201,7 @@
       <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
       
       
-      <comments>https://voidbytes.com/posts/2853285209/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/1696090382/#disqus_thread</comments>
       
     </item>
     
@@ -265,6 +265,33 @@
     </item>
     
     <item>
+      <title>读 MySQL 源码再看 INSERT 加锁流程</title>
+      <link>https://voidbytes.com/posts/3984514586/</link>
+      <guid>https://voidbytes.com/posts/3984514586/</guid>
+      <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/3984514586/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
       <link>https://voidbytes.com/posts/3795959674/</link>
       <guid>https://voidbytes.com/posts/3795959674/</guid>
@@ -292,29 +319,36 @@
     </item>
     
     <item>
-      <title>读 MySQL 源码再看 INSERT 加锁流程</title>
-      <link>https://voidbytes.com/posts/3984514586/</link>
-      <guid>https://voidbytes.com/posts/3984514586/</guid>
-      <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
+      <title>Java内存区域详解</title>
+      <link>https://voidbytes.com/posts/576968662/</link>
+      <guid>https://voidbytes.com/posts/576968662/</guid>
+      <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
+&lt;p&gt;常见面试题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍下 Java</description>
           
         
       
       
       
       
-      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
       
       
-      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
       
       
-      <comments>https://voidbytes.com/posts/3984514586/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/576968662/#disqus_thread</comments>
       
     </item>
     
@@ -380,40 +414,6 @@
     </item>
     
     <item>
-      <title>Java内存区域详解</title>
-      <link>https://voidbytes.com/posts/576968662/</link>
-      <guid>https://voidbytes.com/posts/576968662/</guid>
-      <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;
-&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
-&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
-&lt;p&gt;常见面试题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;介绍下 Java</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://voidbytes.com/categories/Java/">Java</category>
-      
-      
-      <category domain="https://voidbytes.com/tags/Java/">Java</category>
-      
-      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
-      
-      
-      <comments>https://voidbytes.com/posts/576968662/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>JVM垃圾回收详解（重点）</title>
       <link>https://voidbytes.com/posts/152633231/</link>
       <guid>https://voidbytes.com/posts/152633231/</guid>
@@ -441,36 +441,6 @@
       
       
       <comments>https://voidbytes.com/posts/152633231/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>大白话带你认识 JVM</title>
-      <link>https://voidbytes.com/posts/314390907/</link>
-      <guid>https://voidbytes.com/posts/314390907/</guid>
-      <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;
-&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://voidbytes.com/categories/Java/">Java</category>
-      
-      
-      <category domain="https://voidbytes.com/tags/Java/">Java</category>
-      
-      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
-      
-      
-      <comments>https://voidbytes.com/posts/314390907/#disqus_thread</comments>
       
     </item>
     
@@ -505,16 +475,17 @@
     </item>
     
     <item>
-      <title>类加载器详解</title>
-      <link>https://voidbytes.com/posts/3182538063/</link>
-      <guid>https://voidbytes.com/posts/3182538063/</guid>
+      <title>大白话带你认识 JVM</title>
+      <link>https://voidbytes.com/posts/314390907/</link>
+      <guid>https://voidbytes.com/posts/314390907/</guid>
       <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;h2 id=&quot;回顾一下类加载过程&quot;&gt;&lt;a href=&quot;#回顾一下类加载过程&quot; class=&quot;headerlink&quot;</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</description>
           
         
       
@@ -529,7 +500,7 @@
       <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
       
       
-      <comments>https://voidbytes.com/posts/3182538063/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/314390907/#disqus_thread</comments>
       
     </item>
     
@@ -588,6 +559,35 @@
       
       
       <comments>https://voidbytes.com/posts/2384868174/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>类加载器详解</title>
+      <link>https://voidbytes.com/posts/3182538063/</link>
+      <guid>https://voidbytes.com/posts/3182538063/</guid>
+      <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;回顾一下类加载过程&quot;&gt;&lt;a href=&quot;#回顾一下类加载过程&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/3182538063/#disqus_thread</comments>
       
     </item>
     

@@ -65,9 +65,9 @@
   </entry>
   
   <entry>
-    <title>Spring 事务失效的 12 种场景</title>
-    <link href="https://voidbytes.com/posts/1040342123/"/>
-    <id>https://voidbytes.com/posts/1040342123/</id>
+    <title>为什么要用消息队列？你项目中是怎么用的</title>
+    <link href="https://voidbytes.com/posts/2853285209/"/>
+    <id>https://voidbytes.com/posts/2853285209/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -76,7 +76,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</summary>
+    <summary type="html">&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -90,9 +90,9 @@
   </entry>
   
   <entry>
-    <title>Java后端线上问题排查常用命令收藏</title>
-    <link href="https://voidbytes.com/posts/1696090382/"/>
-    <id>https://voidbytes.com/posts/1696090382/</id>
+    <title>Spring 事务失效的 12 种场景</title>
+    <link href="https://voidbytes.com/posts/1040342123/"/>
+    <id>https://voidbytes.com/posts/1040342123/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -101,11 +101,7 @@
       
         
         
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
-&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</summary>
         
       
     
@@ -171,9 +167,9 @@
   </entry>
   
   <entry>
-    <title>为什么要用消息队列？你项目中是怎么用的</title>
-    <link href="https://voidbytes.com/posts/2853285209/"/>
-    <id>https://voidbytes.com/posts/2853285209/</id>
+    <title>Java后端线上问题排查常用命令收藏</title>
+    <link href="https://voidbytes.com/posts/1696090382/"/>
+    <id>https://voidbytes.com/posts/1696090382/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -182,7 +178,11 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
+&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
         
       
     
@@ -251,6 +251,31 @@
   </entry>
   
   <entry>
+    <title>读 MySQL 源码再看 INSERT 加锁流程</title>
+    <link href="https://voidbytes.com/posts/3984514586/"/>
+    <id>https://voidbytes.com/posts/3984514586/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
     <link href="https://voidbytes.com/posts/3795959674/"/>
     <id>https://voidbytes.com/posts/3795959674/</id>
@@ -276,27 +301,34 @@
   </entry>
   
   <entry>
-    <title>读 MySQL 源码再看 INSERT 加锁流程</title>
-    <link href="https://voidbytes.com/posts/3984514586/"/>
-    <id>https://voidbytes.com/posts/3984514586/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
+    <title>Java内存区域详解</title>
+    <link href="https://voidbytes.com/posts/576968662/"/>
+    <id>https://voidbytes.com/posts/576968662/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
+&lt;p&gt;常见面试题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍下 Java</summary>
         
       
     
     
     
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
     
     
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
     
   </entry>
   
@@ -358,38 +390,6 @@
   </entry>
   
   <entry>
-    <title>Java内存区域详解</title>
-    <link href="https://voidbytes.com/posts/576968662/"/>
-    <id>https://voidbytes.com/posts/576968662/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
-&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
-&lt;p&gt;常见面试题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;介绍下 Java</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
     <title>JVM垃圾回收详解（重点）</title>
     <link href="https://voidbytes.com/posts/152633231/"/>
     <id>https://voidbytes.com/posts/152633231/</id>
@@ -404,34 +404,6 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
 &lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大白话带你认识 JVM</title>
-    <link href="https://voidbytes.com/posts/314390907/"/>
-    <id>https://voidbytes.com/posts/314390907/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
         
       
     
@@ -475,9 +447,9 @@
   </entry>
   
   <entry>
-    <title>类加载器详解</title>
-    <link href="https://voidbytes.com/posts/3182538063/"/>
-    <id>https://voidbytes.com/posts/3182538063/</id>
+    <title>大白话带你认识 JVM</title>
+    <link href="https://voidbytes.com/posts/314390907/"/>
+    <id>https://voidbytes.com/posts/314390907/</id>
     <published>2023-06-14T08:00:00.000Z</published>
     <updated>2023-06-14T08:00:00.000Z</updated>
     
@@ -486,7 +458,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;回顾一下类加载过程&quot;&gt;&lt;a href=&quot;#回顾一下类加载过程&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
         
       
     
@@ -541,6 +514,33 @@
         
         
     <summary type="html">&lt;h2 id=&quot;回顾一下字节码&quot;&gt;&lt;a href=&quot;#回顾一下字节码&quot; class=&quot;headerlink&quot; title=&quot;回顾一下字节码&quot;&gt;&lt;/a&gt;回顾一下字节码&lt;/h2&gt;&lt;p&gt;在 Java 中，JVM 可以理解的代码就叫做&lt;code&gt;字节码&lt;/code&gt;（即扩展名为</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>类加载器详解</title>
+    <link href="https://voidbytes.com/posts/3182538063/"/>
+    <id>https://voidbytes.com/posts/3182538063/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;回顾一下类加载过程&quot;&gt;&lt;a href=&quot;#回顾一下类加载过程&quot; class=&quot;headerlink&quot;</summary>
         
       
     
