@@ -140,9 +140,9 @@
   </entry>
   
   <entry>
-    <title>服务端如何防止订单重复支付</title>
-    <link href="https://voidbytes.com/posts/1362641175/"/>
-    <id>https://voidbytes.com/posts/1362641175/</id>
+    <title>Java后端线上问题排查常用命令收藏</title>
+    <link href="https://voidbytes.com/posts/1696090382/"/>
+    <id>https://voidbytes.com/posts/1696090382/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -151,7 +151,11 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
+&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
         
       
     
@@ -179,6 +183,31 @@
     <summary type="html">&lt;p&gt;&lt;em&gt;作者**：linzworld&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;cnblogs.com/linzworld/p/13720477.html&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>服务端如何防止订单重复支付</title>
+    <link href="https://voidbytes.com/posts/1362641175/"/>
+    <id>https://voidbytes.com/posts/1362641175/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -222,9 +251,9 @@
   </entry>
   
   <entry>
-    <title>Java后端线上问题排查常用命令收藏</title>
-    <link href="https://voidbytes.com/posts/1696090382/"/>
-    <id>https://voidbytes.com/posts/1696090382/</id>
+    <title>读 MySQL 源码再看 INSERT 加锁流程</title>
+    <link href="https://voidbytes.com/posts/3984514586/"/>
+    <id>https://voidbytes.com/posts/3984514586/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -233,11 +262,7 @@
       
         
         
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
-&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</summary>
         
       
     
@@ -276,58 +301,6 @@
   </entry>
   
   <entry>
-    <title>读 MySQL 源码再看 INSERT 加锁流程</title>
-    <link href="https://voidbytes.com/posts/3984514586/"/>
-    <id>https://voidbytes.com/posts/3984514586/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JDK监控和故障处理工具总结</title>
-    <link href="https://voidbytes.com/posts/4058733264/"/>
-    <id>https://voidbytes.com/posts/4058733264/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;JDK-命令行工具&quot;&gt;&lt;a href=&quot;#JDK-命令行工具&quot; class=&quot;headerlink&quot; title=&quot;JDK 命令行工具&quot;&gt;&lt;/a&gt;JDK 命令行工具&lt;/h2&gt;&lt;p&gt;这些命令在 JDK 安装目录下的 bin</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Java内存区域详解</title>
     <link href="https://voidbytes.com/posts/576968662/"/>
     <id>https://voidbytes.com/posts/576968662/</id>
@@ -345,6 +318,33 @@
 &lt;p&gt;常见面试题：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;介绍下 Java</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JDK监控和故障处理工具总结</title>
+    <link href="https://voidbytes.com/posts/4058733264/"/>
+    <id>https://voidbytes.com/posts/4058733264/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JDK-命令行工具&quot;&gt;&lt;a href=&quot;#JDK-命令行工具&quot; class=&quot;headerlink&quot; title=&quot;JDK 命令行工具&quot;&gt;&lt;/a&gt;JDK 命令行工具&lt;/h2&gt;&lt;p&gt;这些命令在 JDK 安装目录下的 bin</summary>
         
       
     
@@ -390,9 +390,9 @@
   </entry>
   
   <entry>
-    <title>JVM垃圾回收详解（重点）</title>
-    <link href="https://voidbytes.com/posts/152633231/"/>
-    <id>https://voidbytes.com/posts/152633231/</id>
+    <title>类加载器详解</title>
+    <link href="https://voidbytes.com/posts/3182538063/"/>
+    <id>https://voidbytes.com/posts/3182538063/</id>
     <published>2023-06-14T08:00:00.000Z</published>
     <updated>2023-06-14T08:00:00.000Z</updated>
     
@@ -401,9 +401,7 @@
       
         
         
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
-&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM</summary>
+    <summary type="html">&lt;h2 id=&quot;回顾一下类加载过程&quot;&gt;&lt;a href=&quot;#回顾一下类加载过程&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -432,33 +430,6 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;本文由 JavaGuide 翻译自 &lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>类加载器详解</title>
-    <link href="https://voidbytes.com/posts/3182538063/"/>
-    <id>https://voidbytes.com/posts/3182538063/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;回顾一下类加载过程&quot;&gt;&lt;a href=&quot;#回顾一下类加载过程&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -513,6 +484,35 @@
         
         
     <summary type="html">&lt;h2 id=&quot;回顾一下字节码&quot;&gt;&lt;a href=&quot;#回顾一下字节码&quot; class=&quot;headerlink&quot; title=&quot;回顾一下字节码&quot;&gt;&lt;/a&gt;回顾一下字节码&lt;/h2&gt;&lt;p&gt;在 Java 中，JVM 可以理解的代码就叫做&lt;code&gt;字节码&lt;/code&gt;（即扩展名为</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM垃圾回收详解（重点）</title>
+    <link href="https://voidbytes.com/posts/152633231/"/>
+    <id>https://voidbytes.com/posts/152633231/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM</summary>
         
       
     
