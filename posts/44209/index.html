@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="zh-cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>找工作智力题集锦 | 小白的编程札记</title><meta name="author" content=" 小白 "><meta name="copyright" content=" 小白 "><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1 .0，1，2，3，⋯，499，500共501个数按升序排列，每次取奇数序位的数丢掉，然后取剩下的数的奇数序位的数丢掉，重复这个过程，那么最后剩下的数是多少？答案 ：255 简单例举下：0   1    2    3    4  5    6    7    8    9   10    11    第一次剩下的    1    3    5    7  9    11       规律： 2i"><meta property="og:type" content="article"><meta property="og:title" content="找工作智力题集锦"><meta property="og:url" content="https://voidbytes.com/posts/44209/index.html"><meta property="og:site_name" content="小白的编程札记"><meta property="og:description" content="1 .0，1，2，3，⋯，499，500共501个数按升序排列，每次取奇数序位的数丢掉，然后取剩下的数的奇数序位的数丢掉，重复这个过程，那么最后剩下的数是多少？答案 ：255 简单例举下：0   1    2    3    4  5    6    7    8    9   10    11    第一次剩下的    1    3    5    7  9    11       规律： 2i"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://voidbytes.com/img/avatar-go.png"><meta property="article:published_time" content="2019-08-13T23:58:12.000Z"><meta property="article:modified_time" content="2019-08-13T23:58:12.000Z"><meta property="article:author" content=" 小白 "><meta property="article:tag" content="面试"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://voidbytes.com/img/avatar-go.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "找工作智力题集锦",
+  "url": "https://voidbytes.com/posts/44209/",
+  "image": "https://voidbytes.com/img/avatar-go.png",
+  "datePublished": "2019-08-13T23:58:12.000Z",
+  "dateModified": "2019-08-13T23:58:12.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": " 小白 ",
+      "url": "https://voidbytes.com"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/Doraemon.png"><link rel="canonical" href="https://voidbytes.com/posts/44209/index.html"><link rel="preconnect"><link rel="preconnect" href="//busuanzi.ibruce.info"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="/pluginsSrc/node-snackbar/dist/snackbar.min.css" media="print" onload='this.media="all"'><script>(() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"No results found for: ${query}","hits_stats":"${hits} articles found"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":true,"highlightMacStyle":true},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: {"chs_to_cht":"You have switched to Traditional Chinese","cht_to_chs":"You have switched to Simplified Chinese","day_to_night":"You have switched to Dark Mode","night_to_day":"You have switched to Light Mode","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: '/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE={title:"找工作智力题集锦",isHighlightShrink:!1,isToc:!1,pageType:"post"}</script><meta name="generator" content="Hexo 7.3.0"><style>.github-emoji{position:relative;display:inline-block;width:1.2em;min-height:1.2em;overflow:hidden;vertical-align:top;color:transparent}.github-emoji>span{position:relative;z-index:10}.github-emoji .fancybox,.github-emoji img{margin:0!important;padding:0!important;border:none!important;outline:0!important;text-decoration:none!important;user-select:none!important;cursor:auto!important}.github-emoji img{height:1.2em!important;width:1.2em!important;position:absolute!important;left:50%!important;top:50%!important;transform:translate(-50%,-50%)!important;user-select:none!important;cursor:auto!important}.github-emoji-fallback{color:inherit}.github-emoji-fallback img{opacity:0!important}</style><link rel="alternate" href="/atom.xml" title="小白的编程札记" type="application/atom+xml"><link rel="alternate" href="/rss2.xml" title="小白的编程札记" type="application/rss+xml"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      if ($loadingBox.classList.contains('loaded')) return
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+
+  if (document.readyState === 'complete') {
+    preloader.endLoading()
+  } else {
+    window.addEventListener('load', preloader.endLoading)
+    document.addEventListener('DOMContentLoaded', preloader.endLoading)
+    // Add timeout protection: force end after 7 seconds
+    setTimeout(preloader.endLoading, 7000)
+  }
+
+  if (false) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar-go.png" onerror='this.onerror=null,this.src="/img/friend_404.gif"' alt="avatar"></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">82</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">52</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://www.travellings.cn/go.html"><i class="fa-fw fas fa-subway"></i><span> Travelling</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fas fa-link"></i><span> Links</span></a></div><div class="menus_item"><a class="site-page" href="/guestbook/"><i class="fa-fw fas fa-comment-dots"></i><span> Guestbook</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image:url(https://today.czqu.net/pic/today.webp)"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">小白的编程札记</span></a><a class="nav-page-title" href="/"><span class="site-name">找工作智力题集锦</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span> Back to Home</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://www.travellings.cn/go.html"><i class="fa-fw fas fa-subway"></i><span> Travelling</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fas fa-link"></i><span> Links</span></a></div><div class="menus_item"><a class="site-page" href="/guestbook/"><i class="fa-fw fas fa-comment-dots"></i><span> Guestbook</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">找工作智力题集锦</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2019-08-13T23:58:12.000Z" title="Created 2019-08-13 15:58:12">2019-08-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2019-08-13T23:58:12.000Z" title="Updated 2019-08-13 15:58:12">2019-08-13</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">1.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>4mins</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:500,&quot;messagePrev&quot;:&quot;It has been&quot;,&quot;messageNext&quot;:&quot;days since the last update, the content of the article may be outdated.&quot;,&quot;postUpdate&quot;:&quot;2019-08-13 15:58:12&quot;}" hidden></div><p><strong>1 .0，1，2，3，⋯，499，500共501个数按升序排列，每次取奇数序位的数丢掉，然后取剩下的数的奇数序位的数丢掉，重复这个过程，那么最后剩下的数是多少？</strong><br>答案 ：255</p><p>简单例举下：0 1 2 3 4 5 6 7 8 9 10 11<br>第一次剩下的 1 3 5 7 9 11 规律： 2i-1<br>（ i为整数 1&lt;=i&lt;= n/2 （n表示给出序列的元素个数，例子中是12，而题目中是501））<br>第二次剩下的 3 7 11 4i- 1 1&lt;=i&lt;= n/4<br>第3次剩下的 7 8i- 1 1&lt;=i&lt;= n/8</p><p>相信已经差不多了。每次剩下的元素为 2^x-1 满足条件的只有 255=2^8-1 .当然这是选择题可以直接选答案。<br>正确做法是： 最后剩下一个元素，那么进行了几次筛选过程呢？ i取值只能是1，<br>那么 501/（2^x）&lt;2 取x=8;<br>那么剩下的元素是2^8-1=255<br>仔细观察都是一的二进制数最后出列。</p><p><strong>32!的计算结果，尾数总共有几个零？</strong><br>答案：7个<br>2*5可以得到零，即转为求因子数。<br>2因子远大于5，求5就行<br>这里可以有公式：<br>5！：5 / 5 = 1<br>25！： 25/5 + 25/25= 6（有2有5+1个5，5 10 15 20 25，25有两个五，也就是每有一个25要多一个零，以下同理）<br>32！：32/5 + 32/25 =7<br>1024!：1024/5 + 1024/25 + 1024/125 + 1024/625 = 253</p><p><strong>站在地球上的某一点，向南走一公里，然后向东走一公里，最后向北走一公里，回到了原点。地球上有多少个满足这样条件的点?</strong><br>答案：无数个<br>从逻辑上来讲，题目从好像缺少了一次向西的过程，才可以回到原地。有没有可能向东1公里还在原地，答案是肯定的，如果有一个纬度，绕其一圈恰好是1公里即可实现，所以这样的点有无穷多个，只要找到那个纬度即可。（就像你在赤道上，要回到原点怎么办呢，向东或西走赤道这么长就可以了）<br>北极点的起点出发刚好走了一个正三角形，所以可以返回原点。</p><p><strong>1,32,81,64,25,(6),1</strong><br>$1^6=1$<br>$2^5=32$<br>$3^4=81$<br>$4^3=64$<br>$5^2=25$<br>$6^1=6$<br>$7^0=1$</p><p><strong>N个球中有一个假冒伪劣(重量不足)，如果给你一个天平允许你测 3 次找出那个假冒伪劣，问 N 可能的值</strong></p><p>三个一次就可以测出来。A B C，三个球中有一个次品，只要测一下A B是否等重，则次品在C；如果A B不等重，那就可以分出来次品。<br>$3<em>3 = 9$ 个以内 2 次，$3</em>3*3 = 27$ 个以内，3次！所以，有个公式：n 次可以测出来 $3^n$ 以内的假冒伪劣</p><p><strong>某单位组织党员参加党史，党风廉政建设，科学发展观和业务能力四项培训，要求每名党员参加且只能参加其中的两项，无论如何安排，都至少有 5 名党员参加的培训完全相同，请问该单位至少有多少名党员？</strong><br>4门课程，每人选2门，有$C_4^2=6$中选法；此时根据抽屉原理，将这6中选法想象为6个抽屉，在每个抽屉中放入4个党员，则有24名党员；此时，再多来一名党员，则无论将其安排在哪个抽屉，6个抽屉中都必有一个里面装的是5名党员。所以，该机关至少有24+1=25名党员。</p><p><strong>小松鼠采到了100 颗坚果要运回家。家离放坚果的地方有100 米远。小松鼠每次最多运 50 颗。BUT！小松鼠很馋。。。每走2 米就要吃一颗坚果。。。返回时不会再吃坚果，问小松鼠最多能运回家多少颗坚果？</strong><br>答案：25</p><p>设采坚果的地点为A，家为B，从A到B方向的运动需要消耗坚果。题目求最多运多少坚果回家，为使结果最大化，所以需要每次开始都运50颗，所以题目也就是求最少的坚果消耗量，由于A-&gt;B方向的运动一直要消耗坚果，所以也就是求此方向运动的最少距离。由于每次做多运50颗，所以有一段A-&gt;B方向必须走两次，设这段距离为x，剩下的距离为y，则有x+y=100。消耗的总坚果数为(2x+y)/2。并且为了使最后y段能够运走所有2x段剩下的坚果，需要满足2*(50-x/2)&lt;=50，所以x&gt;=50。由于要使(2x+y)/2=(x+100)/2最小，所以x应该去最小值50,所以消耗坚果数为（50+100）/2=75，所以剩下25个。<br>另：假如松鼠每走两步就要吃坚果，那么答案应该是17颗。</p><p><strong>在?处答案为()</strong><br><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/posts/44209/20200330202952584.png" alt="在这里插入图片描述"><br>答案：B<br>前两列（1、2列）移动到2、3列，第三列挪到第一列，<strong>但是</strong>第三列第三行要变第一列第一行，其他的往下挪（即第三列第一行变第一列第二行，即第三列第二行变第一列第三行）， 然后叉变圆，圆变三角，三角变叉。（不理解的可以画图试试）</p></article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%9D%A2%E8%AF%95/">面试</a></div><div class="post-share"><div class="social-share" data-image="/img/avatar-go.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="/pluginsSrc/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload='this.media="all"'><script src="/pluginsSrc/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/posts/42422/" title="ubuntu 18.04下搭建LAMP环境"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">ubuntu 18.04下搭建LAMP环境</div></div><div class="info-2"><div class="info-item-1">前言： Linux 操作系统在服务器领域具有广泛的应用。Web 服务是服务器领域中应用最广泛的服务，常见 Web 服务有 WAMP（Windows+Apache+MySQL+PHP）和 LAMP（Linux+Apache+MySQL+PHP）架构，其中 Apache 是全世界最流行的 Web 服务软件，此外，Web 服务软件 nginx，因其具有优秀的性能也受到越来越多的用户欢迎。本文中，演示在 Linux 环境下搭建支持 PHP 等网页的 Web 服务平台，即LAMP。Linux 环境下搭建 Web 服务器有三种方式，一是在安装操作系统时勾选相应服务组件；二是从网上下载或从 ISO 系统镜像包中拷贝安装包手动安装；三是在在连接网络的的情况下在线安装。本文以阿里云 Ubuntu 18.04 64 位操作系统为例安装LAMP，并用PHP实现简单的图片上传功能。 1.安装 Apache 服务器1apt update &amp;&amp; apt install apache2 安装完成后需要手动启动 apache 服务 测试 Apache，在浏览器输入服务器IP 地址，如下...</div></div></div></a><a class="pagination-related" href="/posts/46653/" title="操作系统题目集锦"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">操作系统题目集锦</div></div><div class="info-2"><div class="info-item-1">在硬件和环境相同的条件下，一个作业在（分页）存储管理系统中运行的时间最长。分页式存储管理可能将连续的指令放置在不同的页中，会发生换页中断，而分段、段页都是逻辑分配空间，段长可变，逻辑上相对连续的指令放在同一段中，不会像分页那样频繁换页操作。 设从磁盘将一块数据传送到缓冲区所用实际为80μs，将缓冲区中数据传送到用户区所用时间为40μs，CPU处理数据所用的时间为30μs。则处理该数据，采用单缓冲传送磁盘数据，系统所用总时间为（120μs）。</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar-go.png" onerror='this.onerror=null,this.src="/img/friend_404.gif"' alt="avatar"></div><div class="author-info-name">小白</div><div class="author-info-description">这里是小白的小天地，简单记录自己的编程笔记、学习心得和日常点滴，分享一路成长的思考与收获。</div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">82</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">52</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/187821551/" title="SSH问题经验">SSH问题经验</a><time datetime="2025-08-10T07:58:13.000Z" title="Created 2025-08-09 23:58:13">2025-08-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/3028893647/" title="SpringBoot 参数校验组件">SpringBoot 参数校验组件</a><time datetime="2023-08-24T08:00:00.000Z" title="Created 2023-08-24 00:00:00">2023-08-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/1696090382/" title="Java后端线上问题排查常用命令收藏">Java后端线上问题排查常用命令收藏</a><time datetime="2023-08-24T08:00:00.000Z" title="Created 2023-08-24 00:00:00">2023-08-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/2853285209/" title="为什么要用消息队列？你项目中是怎么用的">为什么要用消息队列？你项目中是怎么用的</a><time datetime="2023-08-24T08:00:00.000Z" title="Created 2023-08-24 00:00:00">2023-08-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/1040342123/" title="Spring 事务失效的 12 种场景">Spring 事务失效的 12 种场景</a><time datetime="2023-08-24T08:00:00.000Z" title="Created 2023-08-24 00:00:00">2023-08-24</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2019 - 2025 By 小白 </span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></span></div><div class="footer_custom_text">京ICP备2023004911号-1</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="Toggle Between Traditional and Simplified Chinese">简</button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="/pluginsSrc/instant.page/instantpage.js" type="module"></script><script src="/pluginsSrc/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/pluginsSrc/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script src="/pluginsSrc/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful=!0,POWERMODE.shake=!0,POWERMODE.mobile=!1,document.body.addEventListener("input",POWERMODE)</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span> Loading Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"></div></div><hr><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>

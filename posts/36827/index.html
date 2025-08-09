@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="zh-cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Linux 所有命令无法使用的解决方法 | 小白的编程札记</title><meta name="author" content=" 小白 "><meta name="copyright" content=" 小白 "><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="这是由于环境变量设置出错导致的 解决方法： 直接在命令行中输入以下代码，然后回车 1export PATH&#x3D;&#x2F;usr&#x2F;local&#x2F;sbin:&#x2F;usr&#x2F;local&#x2F;bin:&#x2F;sbin:&#x2F;bin:&#x2F;usr&#x2F;sbin:&#x2F;usr&#x2F;bin   然后输入如下代码， 把错误的环境变量修正： 1sudo vim &#x2F;etc&#x2F;profile"><meta property="og:type" content="article"><meta property="og:title" content="Linux 所有命令无法使用的解决方法"><meta property="og:url" content="https://voidbytes.com/posts/36827/index.html"><meta property="og:site_name" content="小白的编程札记"><meta property="og:description" content="这是由于环境变量设置出错导致的 解决方法： 直接在命令行中输入以下代码，然后回车 1export PATH&#x3D;&#x2F;usr&#x2F;local&#x2F;sbin:&#x2F;usr&#x2F;local&#x2F;bin:&#x2F;sbin:&#x2F;bin:&#x2F;usr&#x2F;sbin:&#x2F;usr&#x2F;bin   然后输入如下代码， 把错误的环境变量修正： 1sudo vim &#x2F;etc&#x2F;profile"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://voidbytes.com/img/avatar-go.png"><meta property="article:published_time" content="2020-11-13T23:39:52.000Z"><meta property="article:modified_time" content="2020-11-13T23:39:52.000Z"><meta property="article:author" content=" 小白 "><meta property="article:tag" content="Linux"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://voidbytes.com/img/avatar-go.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Linux 所有命令无法使用的解决方法",
+  "url": "https://voidbytes.com/posts/36827/",
+  "image": "https://voidbytes.com/img/avatar-go.png",
+  "datePublished": "2020-11-13T23:39:52.000Z",
+  "dateModified": "2020-11-13T23:39:52.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": " 小白 ",
+      "url": "https://voidbytes.com"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/Doraemon.png"><link rel="canonical" href="https://voidbytes.com/posts/36827/index.html"><link rel="preconnect"><link rel="preconnect" href="//busuanzi.ibruce.info"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="/pluginsSrc/node-snackbar/dist/snackbar.min.css" media="print" onload='this.media="all"'><script>(() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"No results found for: ${query}","hits_stats":"${hits} articles found"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":true,"highlightMacStyle":true},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: {"chs_to_cht":"You have switched to Traditional Chinese","cht_to_chs":"You have switched to Simplified Chinese","day_to_night":"You have switched to Dark Mode","night_to_day":"You have switched to Light Mode","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: '/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE={title:"Linux 所有命令无法使用的解决方法",isHighlightShrink:!1,isToc:!1,pageType:"post"}</script><meta name="generator" content="Hexo 7.3.0"><style>.github-emoji{position:relative;display:inline-block;width:1.2em;min-height:1.2em;overflow:hidden;vertical-align:top;color:transparent}.github-emoji>span{position:relative;z-index:10}.github-emoji .fancybox,.github-emoji img{margin:0!important;padding:0!important;border:none!important;outline:0!important;text-decoration:none!important;user-select:none!important;cursor:auto!important}.github-emoji img{height:1.2em!important;width:1.2em!important;position:absolute!important;left:50%!important;top:50%!important;transform:translate(-50%,-50%)!important;user-select:none!important;cursor:auto!important}.github-emoji-fallback{color:inherit}.github-emoji-fallback img{opacity:0!important}</style><link rel="alternate" href="/atom.xml" title="小白的编程札记" type="application/atom+xml"><link rel="alternate" href="/rss2.xml" title="小白的编程札记" type="application/rss+xml"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      if ($loadingBox.classList.contains('loaded')) return
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+
+  if (document.readyState === 'complete') {
+    preloader.endLoading()
+  } else {
+    window.addEventListener('load', preloader.endLoading)
+    document.addEventListener('DOMContentLoaded', preloader.endLoading)
+    // Add timeout protection: force end after 7 seconds
+    setTimeout(preloader.endLoading, 7000)
+  }
+
+  if (false) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar-go.png" onerror='this.onerror=null,this.src="/img/friend_404.gif"' alt="avatar"></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">82</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">52</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://www.travellings.cn/go.html"><i class="fa-fw fas fa-subway"></i><span> Travelling</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fas fa-link"></i><span> Links</span></a></div><div class="menus_item"><a class="site-page" href="/guestbook/"><i class="fa-fw fas fa-comment-dots"></i><span> Guestbook</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image:url(https://today.czqu.net/pic/today.webp)"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">小白的编程札记</span></a><a class="nav-page-title" href="/"><span class="site-name">Linux 所有命令无法使用的解决方法</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span> Back to Home</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://www.travellings.cn/go.html"><i class="fa-fw fas fa-subway"></i><span> Travelling</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fas fa-link"></i><span> Links</span></a></div><div class="menus_item"><a class="site-page" href="/guestbook/"><i class="fa-fw fas fa-comment-dots"></i><span> Guestbook</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">Linux 所有命令无法使用的解决方法</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2020-11-13T23:39:52.000Z" title="Created 2020-11-13 15:39:52">2020-11-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2020-11-13T23:39:52.000Z" title="Updated 2020-11-13 15:39:52">2020-11-13</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">72</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>1mins</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:500,&quot;messagePrev&quot;:&quot;It has been&quot;,&quot;messageNext&quot;:&quot;days since the last update, the content of the article may be outdated.&quot;,&quot;postUpdate&quot;:&quot;2020-11-13 15:39:52&quot;}" hidden></div><p>这是由于环境变量设置出错导致的 解决方法： 直接在命令行中输入以下代码，然后回车</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin</span><br></pre></td></tr></tbody></table></figure><p>然后输入如下代码， 把错误的环境变量修正：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim /etc/profile</span><br></pre></td></tr></tbody></table></figure></article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Linux/">Linux</a></div><div class="post-share"><div class="social-share" data-image="/img/avatar-go.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="/pluginsSrc/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload='this.media="all"'><script src="/pluginsSrc/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/posts/13741/" title="联想 Lenovo Tab3 10 Business TB3-X70F （国际版）线刷"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">联想 Lenovo Tab3 10 Business TB3-X70F （国际版）线刷</div></div><div class="info-2"><div class="info-item-1">本文介绍将联想 Lenovo Tab3 10 Business TB3-X70F 刷成国际版的方法，或者可用此方法破解学习平板定制机 中文1.下载工具包链接：https://pan.baidu.com/s/155ta-glHLtbTmAGWHo1HrQ提取码：rfy4 2.安装驱动https://www.androidfilehost.com/?fid=245910004249436633.解压MediaTek SP Flash Tool和线刷包4.管理员运行MediaTek SP Flash Tool5.选择Download Only6.线刷包里的scatter file，然后点Download7.平板关机8.按住音量加键的同时插入usb到电脑9.当进度条变红开始刷机，当显示ok的时候刷机结束，重启即可。 English1.Install MediaTek Preloader USB VCOM driver https://www.androidfilehost.com/?fid=24591000424943663 Most importantly the Preloader...</div></div></div></a><a class="pagination-related" href="/posts/48730/" title="详解管理root用户权限的sudo服务程序"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">详解管理root用户权限的sudo服务程序</div></div><div class="info-2"><div class="info-item-1">sudo 命令允许特权用户以 root 用户身份运行全部或部分命令，但是理解其能做什么和不能做什么很有帮助。 在你想要使用超级权限临时运行一条命令时，sudo 命令非常方便，但是当它不能如你期望的工作时，你也会遇到一些麻烦。比如说你想在某些日志文件结尾添加一些重要的信息，你可能会尝试这样做： 12$ echo "Important note" &gt;&gt; /var/log/somelog-bash: /var/log/somelog: Permission denied 好吧，看起来你似乎需要一些额外的特权。一般来说，你不能使用你的用户账号向系统日志中写入东西。我们使用 sudo 再尝试一次吧。 123$ sudo !!sudo echo "Important note" &gt;&gt; /var/log/somelog-bash: /var/log/somelog: Permission denied 嗯，它还是没有啥反应。我们来试点不同的吧。 12$ sudo 'echo "Important note" &gt;&gt; /var/log/somelog's...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/posts/50854/" title="在Ubuntu中使用Katoolin安装Kali Linux Tools"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2020-11-13</div><div class="info-item-2">在Ubuntu中使用Katoolin安装Kali Linux Tools</div></div><div class="info-2"><div class="info-item-1">本文将引导您逐步在Ubuntu中使用Katoolin安装Kali Linux Tools。对于那些不知道的人，Katoolin是一个Python脚本，可用于一次安装所有Kali Linux工具或手动一次安装。Kali Linux具有300多种渗透测试工具。除了安装所有工具，您还可以使用Katoolin在Linux框中仅安装您选择的选择性工具。如果您想在Ubuntu或任何其他基于DEB的系统上尝试使用Kali Linux工具，则应该尝试一下Katoolin。它将在您的Ubuntu系统中添加Kali Linux存储库，以便您可以一次安装所有渗透测试工具，也可以仅安装必要的工具。Katoolin是完全免费的开源软件，并已在基于Debian的系统上经过正式测试。 在Ubuntu 18.04 LTS中安装Katoolin我已经在Ubuntu 18.04 LTS服务器版本中测试了Katoolin。但是，它应该可以在其他Ubuntu版本和派生版本上使用。 确保在Ubuntu系统中安装了以下先决条件。 Python 2.7 Git 这些软件包在Ubuntu的默认源中可用，因此您可以使用apt...</div></div></div></a><a class="pagination-related" href="/posts/53930/" title="Linux内存管理"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2020-11-13</div><div class="info-item-2">Linux内存管理</div></div><div class="info-2"><div class="info-item-1">前言： 在 32 位的系统上，线性地址空间为 4GB，其中用户进程占有 3GB 线性地址空间，内核占有 1GB 线性地址空间。由于虚拟内存的引入，使的每个进程都可拥有 3GB 的虚拟内存。 用户进程的虚拟地址空间包含若干区域，这些区域的分布方式因体系结构的差异而不同，但所有的方式都包含下列成分： （1） 代码段：可执行文件的二进制代码 （2） 数据段：存储全局变量 （3） 栈：用于保存局部变量和实现函数调用 （4） 环境变量和命令行参数 （5） 程序使用的动态库的代码 （6） 用于映射文件内容的区域为便于描述，系统中进程的虚拟内存空间被划分为若干不同的区域，每个区域都有其相关的属性和用途，一个合法的地址总是落在某个区域当中的，这些区域也不会重叠。在 Linux 内核中，这样的区域被称为虚拟内存区域(virtual memory areas，VMA)。一个 VMA 是一块连续的线性地址空间的抽象，它拥有自身的权限(可读，可写，可执行等) ，对进程而言，VMA 其实是虚拟空间的内存块，一个进程的所有资源由多个内存块组成。 每一个虚拟内存区域都由一个相关的 struct vm_are...</div></div></div></a><a class="pagination-related" href="/posts/33535/" title="Linux内核模块编程小例子之查看虚拟内存VMA(virtual memory areas）信息"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2020-11-13</div><div class="info-item-2">Linux内核模块编程小例子之查看虚拟内存VMA(virtual memory areas）信息</div></div><div class="info-2"><div class="info-item-1">前言： 在 32 位的系统上，线性地址空间为 4GB，其中用户进程占有 3GB 线性地址空间，内核占有 1GB 线性地址空间。由于虚拟内存的引入，使的每个进程都可拥有 3GB 的虚拟内存。 用户进程的虚拟地址空间包含若干区域，这些区域的分布方式因体系结构的差异而不同，但所有的方式都包含下列成分： （1） 代码段：可执行文件的二进制代码 （2） 数据段：存储全局变量 （3） 栈：用于保存局部变量和实现函数调用 （4） 环境变量和命令行参数 （5） 程序使用的动态库的代码 （6） 用于映射文件内容的区域为便于描述，系统中进程的虚拟内存空间被划分为若干不同的区域，每个区域都有其相关的属性和用途，一个合法的地址总是落在某个区域当中的，这些区域也不会重叠。在 Linux 内核中，这样的区域被称为虚拟内存区域(virtual memory areas，VMA)。一个 VMA 是一块连续的线性地址空间的抽象，它拥有自身的权限(可读，可写，可执行等) ，对进程而言，VMA 其实是虚拟空间的内存块，一个进程的所有资源由多个内存块组成。 每一个虚拟内存区域都由一个相关的 struct vm_are...</div></div></div></a><a class="pagination-related" href="/posts/5423/" title="简单抵御疑似黑客的ssh登录"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2020-11-13</div><div class="info-item-2">简单抵御疑似黑客的ssh登录</div></div><div class="info-2"><div class="info-item-1">屏蔽每分钟ssh尝试登陆linux服务器 超过10次的IP进行屏蔽: 123456789#!/bin/bashDATE=$(date +"%a %b %e %H:%M") #星期月天时分 %e单数字时显示7，而%d显示07ABNORMAL_IP=$(lastb |grep "$DATE" |awk '{a[$3]++}END{for(i ina)if(a[i]&gt;10)print i}')for IP in $ABNORMAL_IP; do if [ $(iptables -vnL |grep -c "$IP") -eq 0 ]; then iptables -I INPUT -s $IP -j DROP fidone</div></div></div></a><a class="pagination-related" href="/posts/48730/" title="详解管理root用户权限的sudo服务程序"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2020-11-13</div><div class="info-item-2">详解管理root用户权限的sudo服务程序</div></div><div class="info-2"><div class="info-item-1">sudo 命令允许特权用户以 root 用户身份运行全部或部分命令，但是理解其能做什么和不能做什么很有帮助。 在你想要使用超级权限临时运行一条命令时，sudo 命令非常方便，但是当它不能如你期望的工作时，你也会遇到一些麻烦。比如说你想在某些日志文件结尾添加一些重要的信息，你可能会尝试这样做： 12$ echo "Important note" &gt;&gt; /var/log/somelog-bash: /var/log/somelog: Permission denied 好吧，看起来你似乎需要一些额外的特权。一般来说，你不能使用你的用户账号向系统日志中写入东西。我们使用 sudo 再尝试一次吧。 123$ sudo !!sudo echo "Important note" &gt;&gt; /var/log/somelog-bash: /var/log/somelog: Permission denied 嗯，它还是没有啥反应。我们来试点不同的吧。 12$ sudo 'echo "Important note" &gt;&gt; /var/log/somelog's...</div></div></div></a><a class="pagination-related" href="/posts/187821551/" title="SSH问题经验"><div class="cover" style="background:var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-08-09</div><div class="info-item-2">SSH问题经验</div></div><div class="info-2"><div class="info-item-1">SSH 问题经验Permission denied (publickey,gssapi-keyex,gssapi-with-mic)问题描述ssh 客户端 macbook 上通过ssh-keygen -t rsa生成公钥id_rsa.pub和私钥id_rsa 用键盘复制粘贴到 ssh 服务端的~/.ssh/authorized_keys 然后在客户端上发起连接： 1ssh -i \~/.ssh/id\_rsa heng@服务端IP 报错： 1heng@120.55.54.47: Permission denied (publickey,gssapi-keyex,gssapi-with-mic). lost connection 解法提示是公钥报错，直接复制粘贴有问题，复制粘贴的效果如下： 需要把客户端的公钥文件 scp 到远程的 ssh 服务端上，这里的 - i 是老私钥： 1scp -i \~/.ssh/id\_rsa\_centos \~/.ssh/id\_rsa.pub heng@120.55.54.47:\~/.ssh 也可以在服务端打开密码登录，就不用指定私钥了...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar-go.png" onerror='this.onerror=null,this.src="/img/friend_404.gif"' alt="avatar"></div><div class="author-info-name">小白</div><div class="author-info-description">这里是小白的小天地，简单记录自己的编程笔记、学习心得和日常点滴，分享一路成长的思考与收获。</div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">82</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">52</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/187821551/" title="SSH问题经验">SSH问题经验</a><time datetime="2025-08-10T07:58:13.000Z" title="Created 2025-08-09 23:58:13">2025-08-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/3028893647/" title="SpringBoot 参数校验组件">SpringBoot 参数校验组件</a><time datetime="2023-08-24T08:00:00.000Z" title="Created 2023-08-24 00:00:00">2023-08-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/1696090382/" title="Java后端线上问题排查常用命令收藏">Java后端线上问题排查常用命令收藏</a><time datetime="2023-08-24T08:00:00.000Z" title="Created 2023-08-24 00:00:00">2023-08-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/2853285209/" title="为什么要用消息队列？你项目中是怎么用的">为什么要用消息队列？你项目中是怎么用的</a><time datetime="2023-08-24T08:00:00.000Z" title="Created 2023-08-24 00:00:00">2023-08-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/1040342123/" title="Spring 事务失效的 12 种场景">Spring 事务失效的 12 种场景</a><time datetime="2023-08-24T08:00:00.000Z" title="Created 2023-08-24 00:00:00">2023-08-24</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2019 - 2025 By 小白 </span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></span></div><div class="footer_custom_text">京ICP备2023004911号-1</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="Toggle Between Traditional and Simplified Chinese">简</button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="/pluginsSrc/instant.page/instantpage.js" type="module"></script><script src="/pluginsSrc/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/pluginsSrc/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script src="/pluginsSrc/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful=!0,POWERMODE.shake=!0,POWERMODE.mobile=!1,document.body.addEventListener("input",POWERMODE)</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span> Loading Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"></div></div><hr><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
