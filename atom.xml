@@ -65,35 +65,6 @@
   </entry>
   
   <entry>
-    <title>Java后端线上问题排查常用命令收藏</title>
-    <link href="https://voidbytes.com/posts/1696090382/"/>
-    <id>https://voidbytes.com/posts/1696090382/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
-&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
     <title>为什么要用消息队列？你项目中是怎么用的</title>
     <link href="https://voidbytes.com/posts/2853285209/"/>
     <id>https://voidbytes.com/posts/2853285209/</id>
@@ -169,6 +140,31 @@
   </entry>
   
   <entry>
+    <title>服务端如何防止订单重复支付</title>
+    <link href="https://voidbytes.com/posts/1362641175/"/>
+    <id>https://voidbytes.com/posts/1362641175/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何彻底理解红黑树</title>
     <link href="https://voidbytes.com/posts/312572753/"/>
     <id>https://voidbytes.com/posts/312572753/</id>
@@ -183,31 +179,6 @@
     <summary type="html">&lt;p&gt;&lt;em&gt;作者**：linzworld&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;cnblogs.com/linzworld/p/13720477.html&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>服务端如何防止订单重复支付</title>
-    <link href="https://voidbytes.com/posts/1362641175/"/>
-    <id>https://voidbytes.com/posts/1362641175/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -251,9 +222,9 @@
   </entry>
   
   <entry>
-    <title>读 MySQL 源码再看 INSERT 加锁流程</title>
-    <link href="https://voidbytes.com/posts/3984514586/"/>
-    <id>https://voidbytes.com/posts/3984514586/</id>
+    <title>Java后端线上问题排查常用命令收藏</title>
+    <link href="https://voidbytes.com/posts/1696090382/"/>
+    <id>https://voidbytes.com/posts/1696090382/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -262,7 +233,11 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
+&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
         
       
     
@@ -288,6 +263,31 @@
         
         
     <summary type="html">&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>读 MySQL 源码再看 INSERT 加锁流程</title>
+    <link href="https://voidbytes.com/posts/3984514586/"/>
+    <id>https://voidbytes.com/posts/3984514586/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</summary>
         
       
     
@@ -419,34 +419,6 @@
   </entry>
   
   <entry>
-    <title>大白话带你认识 JVM</title>
-    <link href="https://voidbytes.com/posts/314390907/"/>
-    <id>https://voidbytes.com/posts/314390907/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
     <title>最重要的JVM参数总结</title>
     <link href="https://voidbytes.com/posts/1352723613/"/>
     <id>https://voidbytes.com/posts/1352723613/</id>
@@ -541,6 +513,34 @@
         
         
     <summary type="html">&lt;h2 id=&quot;回顾一下字节码&quot;&gt;&lt;a href=&quot;#回顾一下字节码&quot; class=&quot;headerlink&quot; title=&quot;回顾一下字节码&quot;&gt;&lt;/a&gt;回顾一下字节码&lt;/h2&gt;&lt;p&gt;在 Java 中，JVM 可以理解的代码就叫做&lt;code&gt;字节码&lt;/code&gt;（即扩展名为</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大白话带你认识 JVM</title>
+    <link href="https://voidbytes.com/posts/314390907/"/>
+    <id>https://voidbytes.com/posts/314390907/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
         
       
     
