@@ -40,16 +40,20 @@
     </item>
     
     <item>
-      <title>为什么要用消息队列？你项目中是怎么用的</title>
-      <link>https://voidbytes.com/posts/2853285209/</link>
-      <guid>https://voidbytes.com/posts/2853285209/</guid>
+      <title>Java后端线上问题排查常用命令收藏</title>
+      <link>https://voidbytes.com/posts/1696090382/</link>
+      <guid>https://voidbytes.com/posts/1696090382/</guid>
       <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
+&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</description>
           
         
       
@@ -62,7 +66,7 @@
       <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
       
       
-      <comments>https://voidbytes.com/posts/2853285209/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/1696090382/#disqus_thread</comments>
       
     </item>
     
@@ -94,20 +98,16 @@
     </item>
     
     <item>
-      <title>Java后端线上问题排查常用命令收藏</title>
-      <link>https://voidbytes.com/posts/1696090382/</link>
-      <guid>https://voidbytes.com/posts/1696090382/</guid>
+      <title>为什么要用消息队列？你项目中是怎么用的</title>
+      <link>https://voidbytes.com/posts/2853285209/</link>
+      <guid>https://voidbytes.com/posts/2853285209/</guid>
       <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;blockquote&gt;
-&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
-&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</description>
+      <description>&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</description>
           
         
       
@@ -120,7 +120,7 @@
       <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
       
       
-      <comments>https://voidbytes.com/posts/1696090382/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/2853285209/#disqus_thread</comments>
       
     </item>
     
@@ -181,6 +181,33 @@
     </item>
     
     <item>
+      <title>服务端如何防止订单重复支付</title>
+      <link>https://voidbytes.com/posts/1362641175/</link>
+      <guid>https://voidbytes.com/posts/1362641175/</guid>
+      <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/1362641175/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>消息队列中如何保证消息的顺序性</title>
       <link>https://voidbytes.com/posts/3216271943/</link>
       <guid>https://voidbytes.com/posts/3216271943/</guid>
@@ -213,16 +240,16 @@
     </item>
     
     <item>
-      <title>服务端如何防止订单重复支付</title>
-      <link>https://voidbytes.com/posts/1362641175/</link>
-      <guid>https://voidbytes.com/posts/1362641175/</guid>
+      <title>读 MySQL 源码再看 INSERT 加锁流程</title>
+      <link>https://voidbytes.com/posts/3984514586/</link>
+      <guid>https://voidbytes.com/posts/3984514586/</guid>
       <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</description>
+      <description>&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</description>
           
         
       
@@ -235,7 +262,7 @@
       <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
       
       
-      <comments>https://voidbytes.com/posts/1362641175/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/3984514586/#disqus_thread</comments>
       
     </item>
     
@@ -263,33 +290,6 @@
       
       
       <comments>https://voidbytes.com/posts/3795959674/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>读 MySQL 源码再看 INSERT 加锁流程</title>
-      <link>https://voidbytes.com/posts/3984514586/</link>
-      <guid>https://voidbytes.com/posts/3984514586/</guid>
-      <pubDate>Thu, 24 Aug 2023 08:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
-      
-      
-      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
-      
-      
-      <comments>https://voidbytes.com/posts/3984514586/#disqus_thread</comments>
       
     </item>
     
@@ -324,6 +324,38 @@
       
       
       <comments>https://voidbytes.com/posts/576968662/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>JVM线上问题排查和性能调优案例</title>
+      <link>https://voidbytes.com/posts/4053882931/</link>
+      <guid>https://voidbytes.com/posts/4053882931/</guid>
+      <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;JVM 线上问题排查和性能调优也是面试常问的一个问题，尤其是社招中大厂的面试。&lt;/p&gt;
+&lt;p&gt;这篇文章，我会分享一些我看到的相关的案例。&lt;/p&gt;
+&lt;p&gt;下面是正文。&lt;/p&gt;
+&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/4053882931/#disqus_thread</comments>
       
     </item>
     
@@ -388,6 +420,36 @@
     </item>
     
     <item>
+      <title>大白话带你认识 JVM</title>
+      <link>https://voidbytes.com/posts/314390907/</link>
+      <guid>https://voidbytes.com/posts/314390907/</guid>
+      <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/314390907/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>最重要的JVM参数总结</title>
       <link>https://voidbytes.com/posts/1352723613/</link>
       <guid>https://voidbytes.com/posts/1352723613/</guid>
@@ -447,36 +509,6 @@
     </item>
     
     <item>
-      <title>大白话带你认识 JVM</title>
-      <link>https://voidbytes.com/posts/314390907/</link>
-      <guid>https://voidbytes.com/posts/314390907/</guid>
-      <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;
-&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://voidbytes.com/categories/Java/">Java</category>
-      
-      
-      <category domain="https://voidbytes.com/tags/Java/">Java</category>
-      
-      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
-      
-      
-      <comments>https://voidbytes.com/posts/314390907/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>类加载过程详解</title>
       <link>https://voidbytes.com/posts/407384776/</link>
       <guid>https://voidbytes.com/posts/407384776/</guid>
@@ -502,38 +534,6 @@
       
       
       <comments>https://voidbytes.com/posts/407384776/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>JVM线上问题排查和性能调优案例</title>
-      <link>https://voidbytes.com/posts/4053882931/</link>
-      <guid>https://voidbytes.com/posts/4053882931/</guid>
-      <pubDate>Wed, 14 Jun 2023 08:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;JVM 线上问题排查和性能调优也是面试常问的一个问题，尤其是社招中大厂的面试。&lt;/p&gt;
-&lt;p&gt;这篇文章，我会分享一些我看到的相关的案例。&lt;/p&gt;
-&lt;p&gt;下面是正文。&lt;/p&gt;
-&lt;p&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://voidbytes.com/categories/Java/">Java</category>
-      
-      
-      <category domain="https://voidbytes.com/tags/Java/">Java</category>
-      
-      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
-      
-      
-      <comments>https://voidbytes.com/posts/4053882931/#disqus_thread</comments>
       
     </item>
     

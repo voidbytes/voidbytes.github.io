@@ -42,9 +42,9 @@
   </entry>
   
   <entry>
-    <title>为什么要用消息队列？你项目中是怎么用的</title>
-    <link href="https://voidbytes.com/posts/2853285209/"/>
-    <id>https://voidbytes.com/posts/2853285209/</id>
+    <title>Java后端线上问题排查常用命令收藏</title>
+    <link href="https://voidbytes.com/posts/1696090382/"/>
+    <id>https://voidbytes.com/posts/1696090382/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -53,7 +53,11 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
+&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
         
       
     
@@ -92,9 +96,9 @@
   </entry>
   
   <entry>
-    <title>Java后端线上问题排查常用命令收藏</title>
-    <link href="https://voidbytes.com/posts/1696090382/"/>
-    <id>https://voidbytes.com/posts/1696090382/</id>
+    <title>为什么要用消息队列？你项目中是怎么用的</title>
+    <link href="https://voidbytes.com/posts/2853285209/"/>
+    <id>https://voidbytes.com/posts/2853285209/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -103,11 +107,7 @@
       
         
         
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
-&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -173,36 +173,6 @@
   </entry>
   
   <entry>
-    <title>消息队列中如何保证消息的顺序性</title>
-    <link href="https://voidbytes.com/posts/3216271943/"/>
-    <id>https://voidbytes.com/posts/3216271943/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文选自：advanced-java&lt;/p&gt;
-&lt;p&gt;作者：yanglbme&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;问：如何保证消息的顺序性？&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;面试官心理分析&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
     <title>服务端如何防止订单重复支付</title>
     <link href="https://voidbytes.com/posts/1362641175/"/>
     <id>https://voidbytes.com/posts/1362641175/</id>
@@ -228,9 +198,9 @@
   </entry>
   
   <entry>
-    <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
-    <link href="https://voidbytes.com/posts/3795959674/"/>
-    <id>https://voidbytes.com/posts/3795959674/</id>
+    <title>消息队列中如何保证消息的顺序性</title>
+    <link href="https://voidbytes.com/posts/3216271943/"/>
+    <id>https://voidbytes.com/posts/3216271943/</id>
     <published>2023-08-24T08:00:00.000Z</published>
     <updated>2023-08-24T08:00:00.000Z</updated>
     
@@ -239,7 +209,12 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文选自：advanced-java&lt;/p&gt;
+&lt;p&gt;作者：yanglbme&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;问：如何保证消息的顺序性？&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;面试官心理分析&quot;&gt;&lt;a</summary>
         
       
     
@@ -278,6 +253,31 @@
   </entry>
   
   <entry>
+    <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
+    <link href="https://voidbytes.com/posts/3795959674/"/>
+    <id>https://voidbytes.com/posts/3795959674/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java内存区域详解</title>
     <link href="https://voidbytes.com/posts/576968662/"/>
     <id>https://voidbytes.com/posts/576968662/</id>
@@ -295,6 +295,36 @@
 &lt;p&gt;常见面试题：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;介绍下 Java</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM线上问题排查和性能调优案例</title>
+    <link href="https://voidbytes.com/posts/4053882931/"/>
+    <id>https://voidbytes.com/posts/4053882931/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;JVM 线上问题排查和性能调优也是面试常问的一个问题，尤其是社招中大厂的面试。&lt;/p&gt;
+&lt;p&gt;这篇文章，我会分享一些我看到的相关的案例。&lt;/p&gt;
+&lt;p&gt;下面是正文。&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
         
       
     
@@ -366,6 +396,34 @@
   </entry>
   
   <entry>
+    <title>大白话带你认识 JVM</title>
+    <link href="https://voidbytes.com/posts/314390907/"/>
+    <id>https://voidbytes.com/posts/314390907/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>最重要的JVM参数总结</title>
     <link href="https://voidbytes.com/posts/1352723613/"/>
     <id>https://voidbytes.com/posts/1352723613/</id>
@@ -421,34 +479,6 @@
   </entry>
   
   <entry>
-    <title>大白话带你认识 JVM</title>
-    <link href="https://voidbytes.com/posts/314390907/"/>
-    <id>https://voidbytes.com/posts/314390907/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
     <title>类加载过程详解</title>
     <link href="https://voidbytes.com/posts/407384776/"/>
     <id>https://voidbytes.com/posts/407384776/</id>
@@ -461,36 +491,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;类的生命周期&quot;&gt;&lt;a href=&quot;#类的生命周期&quot; class=&quot;headerlink&quot; title=&quot;类的生命周期&quot;&gt;&lt;/a&gt;类的生命周期&lt;/h2&gt;&lt;p&gt;类从被加载到虚拟机内存中开始到卸载出内存为止，它的整个生命周期可以简单概括为 7</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JVM线上问题排查和性能调优案例</title>
-    <link href="https://voidbytes.com/posts/4053882931/"/>
-    <id>https://voidbytes.com/posts/4053882931/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;JVM 线上问题排查和性能调优也是面试常问的一个问题，尤其是社招中大厂的面试。&lt;/p&gt;
-&lt;p&gt;这篇文章，我会分享一些我看到的相关的案例。&lt;/p&gt;
-&lt;p&gt;下面是正文。&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
         
       
     
