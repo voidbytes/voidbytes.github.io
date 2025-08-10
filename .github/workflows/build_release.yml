@@ -1,0 +1,73 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+  repository_dispatch:
+    types: [build_release]
+
+
+jobs:
+  build-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: set python 
+        uses: actions/setup-python@v4 
+        with:
+          python-version: '3.13' 
+      - name: Checkout source
+        uses: actions/checkout@v5
+        with:
+          repository: ${{ secrets.GH_SOURCE }}
+          token: ${{ secrets.GH_TOKEN }} # `GH_TOKEN` is a secret that contains your PAT
+          path: _source
+          ref: main
+      - name: move file
+        run:  mv -f $GITHUB_WORKSPACE/_source/*  $GITHUB_WORKSPACE 
+      - name: Set Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.18'
+        # Cache node modules to accelerate
+      - name: Get npm cache directory path
+        id: npm-cache-dir-path
+        run: echo "dir=$(npm config get cache)" >> ${GITHUB_OUTPUT}
+      - name: Use npm cache
+        uses: actions/cache@v4
+        id: npm-cache
+        with:
+          path: ${{ steps.npm-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - name: Install dependencies
+        run: npm ci
+      - name: build
+        run: npm run build
+      - name: clean
+        run: mkdir ~/_the_next/ && mv -f $GITHUB_WORKSPACE/public/* ~/_the_next/ && rm -rf $GITHUB_WORKSPACE/ && mkdir $GITHUB_WORKSPACE 
+      - name: Checkout 
+        uses: actions/checkout@v5
+        with:
+          ref: public
+      - name: clean pre version
+        run:  rm -rf $GITHUB_WORKSPACE/public
+      - name: copy
+        run: cp -r -f ~/_the_next/* $GITHUB_WORKSPACE/
+      - name: Commit 
+        run: |
+          git pull
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add .
+          git commit -m "build new html" 
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
+        env:
+          TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          github_token: $TOKEN
+          branch: public
+
+      
