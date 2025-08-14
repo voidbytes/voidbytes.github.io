@@ -6,7 +6,7 @@
   <link href="https://voidbytes.com/atom.xml" rel="self"/>
   
   <link href="https://voidbytes.com/"/>
-  <updated>2025-08-10T07:58:13.000Z</updated>
+  <updated>2025-08-10T21:28:35.000Z</updated>
   <id>https://voidbytes.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习资料推荐</title>
+    <link href="https://voidbytes.com/posts/2371781713/"/>
+    <id>https://voidbytes.com/posts/2371781713/</id>
+    <published>2025-08-10T21:28:35.000Z</published>
+    <updated>2025-08-10T21:28:35.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;大模型&quot;&gt;&lt;a href=&quot;#大模型&quot; class=&quot;headerlink&quot; title=&quot;大模型&quot;&gt;&lt;/a&gt;大模型&lt;/h1&gt;&lt;p&gt;《从零构建大模型》&lt;/p&gt;
+&lt;p&gt;&lt;img src=</summary>
+        
+      
+    
+    
+    
+    
+    <category term="书单" scheme="https://voidbytes.com/tags/%E4%B9%A6%E5%8D%95/"/>
+    
+    <category term="网课" scheme="https://voidbytes.com/tags/%E7%BD%91%E8%AF%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>SSH问题经验</title>
@@ -81,6 +107,56 @@
 &lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring 事务失效的 12 种场景</title>
+    <link href="https://voidbytes.com/posts/1040342123/"/>
+    <id>https://voidbytes.com/posts/1040342123/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么要用消息队列？你项目中是怎么用的</title>
+    <link href="https://voidbytes.com/posts/2853285209/"/>
+    <id>https://voidbytes.com/posts/2853285209/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -171,31 +247,6 @@
   </entry>
   
   <entry>
-    <title>Spring 事务失效的 12 种场景</title>
-    <link href="https://voidbytes.com/posts/1040342123/"/>
-    <id>https://voidbytes.com/posts/1040342123/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
     <title>消息队列中如何保证消息的顺序性</title>
     <link href="https://voidbytes.com/posts/3216271943/"/>
     <id>https://voidbytes.com/posts/3216271943/</id>
@@ -213,56 +264,6 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;问：如何保证消息的顺序性？&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;面试官心理分析&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为什么要用消息队列？你项目中是怎么用的</title>
-    <link href="https://voidbytes.com/posts/2853285209/"/>
-    <id>https://voidbytes.com/posts/2853285209/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
-    <link href="https://voidbytes.com/posts/3795959674/"/>
-    <id>https://voidbytes.com/posts/3795959674/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -301,6 +302,63 @@
   </entry>
   
   <entry>
+    <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
+    <link href="https://voidbytes.com/posts/3795959674/"/>
+    <id>https://voidbytes.com/posts/3795959674/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java内存区域详解</title>
+    <link href="https://voidbytes.com/posts/576968662/"/>
+    <id>https://voidbytes.com/posts/576968662/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
+&lt;p&gt;常见面试题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍下 Java</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>JDK监控和故障处理工具总结</title>
     <link href="https://voidbytes.com/posts/4058733264/"/>
     <id>https://voidbytes.com/posts/4058733264/</id>
@@ -313,6 +371,35 @@
         
         
     <summary type="html">&lt;h2 id=&quot;JDK-命令行工具&quot;&gt;&lt;a href=&quot;#JDK-命令行工具&quot; class=&quot;headerlink&quot; title=&quot;JDK 命令行工具&quot;&gt;&lt;/a&gt;JDK 命令行工具&lt;/h2&gt;&lt;p&gt;这些命令在 JDK 安装目录下的 bin</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM垃圾回收详解（重点）</title>
+    <link href="https://voidbytes.com/posts/152633231/"/>
+    <id>https://voidbytes.com/posts/152633231/</id>
+    <published>2023-06-14T08:00:00.000Z</published>
+    <updated>2023-06-14T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM</summary>
         
       
     
@@ -358,9 +445,9 @@
   </entry>
   
   <entry>
-    <title>Java内存区域详解</title>
-    <link href="https://voidbytes.com/posts/576968662/"/>
-    <id>https://voidbytes.com/posts/576968662/</id>
+    <title>大白话带你认识 JVM</title>
+    <link href="https://voidbytes.com/posts/314390907/"/>
+    <id>https://voidbytes.com/posts/314390907/</id>
     <published>2023-06-14T08:00:00.000Z</published>
     <updated>2023-06-14T08:00:00.000Z</updated>
     
@@ -370,11 +457,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
-&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
-&lt;p&gt;常见面试题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;介绍下 Java</summary>
+&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
         
       
     
@@ -418,62 +501,6 @@
   </entry>
   
   <entry>
-    <title>JVM垃圾回收详解（重点）</title>
-    <link href="https://voidbytes.com/posts/152633231/"/>
-    <id>https://voidbytes.com/posts/152633231/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
-&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>类加载过程详解</title>
-    <link href="https://voidbytes.com/posts/407384776/"/>
-    <id>https://voidbytes.com/posts/407384776/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;类的生命周期&quot;&gt;&lt;a href=&quot;#类的生命周期&quot; class=&quot;headerlink&quot; title=&quot;类的生命周期&quot;&gt;&lt;/a&gt;类的生命周期&lt;/h2&gt;&lt;p&gt;类从被加载到虚拟机内存中开始到卸载出内存为止，它的整个生命周期可以简单概括为 7</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
     <title>类加载器详解</title>
     <link href="https://voidbytes.com/posts/3182538063/"/>
     <id>https://voidbytes.com/posts/3182538063/</id>
@@ -501,9 +528,9 @@
   </entry>
   
   <entry>
-    <title>大白话带你认识 JVM</title>
-    <link href="https://voidbytes.com/posts/314390907/"/>
-    <id>https://voidbytes.com/posts/314390907/</id>
+    <title>类加载过程详解</title>
+    <link href="https://voidbytes.com/posts/407384776/"/>
+    <id>https://voidbytes.com/posts/407384776/</id>
     <published>2023-06-14T08:00:00.000Z</published>
     <updated>2023-06-14T08:00:00.000Z</updated>
     
@@ -512,35 +539,7 @@
       
         
         
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>类文件结构详解</title>
-    <link href="https://voidbytes.com/posts/2384868174/"/>
-    <id>https://voidbytes.com/posts/2384868174/</id>
-    <published>2023-06-14T08:00:00.000Z</published>
-    <updated>2023-06-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;回顾一下字节码&quot;&gt;&lt;a href=&quot;#回顾一下字节码&quot; class=&quot;headerlink&quot; title=&quot;回顾一下字节码&quot;&gt;&lt;/a&gt;回顾一下字节码&lt;/h2&gt;&lt;p&gt;在 Java 中，JVM 可以理解的代码就叫做&lt;code&gt;字节码&lt;/code&gt;（即扩展名为</summary>
+    <summary type="html">&lt;h2 id=&quot;类的生命周期&quot;&gt;&lt;a href=&quot;#类的生命周期&quot; class=&quot;headerlink&quot; title=&quot;类的生命周期&quot;&gt;&lt;/a&gt;类的生命周期&lt;/h2&gt;&lt;p&gt;类从被加载到虚拟机内存中开始到卸载出内存为止，它的整个生命周期可以简单概括为 7</summary>
         
       
     

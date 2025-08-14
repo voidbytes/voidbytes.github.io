@@ -19,7 +19,7 @@
     
     
     <url>
-        <loc>https://voidbytes.com/links/</loc>
+        <loc>https://voidbytes.com/guestbook/</loc>
         <lastmod>2023-05-26T08:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -28,7 +28,7 @@
     
     
     <url>
-        <loc>https://voidbytes.com/guestbook/</loc>
+        <loc>https://voidbytes.com/links/</loc>
         <lastmod>2023-05-26T08:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
