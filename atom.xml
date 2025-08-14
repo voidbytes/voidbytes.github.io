@@ -528,9 +528,9 @@
   </entry>
   
   <entry>
-    <title>类加载过程详解</title>
-    <link href="https://voidbytes.com/posts/407384776/"/>
-    <id>https://voidbytes.com/posts/407384776/</id>
+    <title>类文件结构详解</title>
+    <link href="https://voidbytes.com/posts/2384868174/"/>
+    <id>https://voidbytes.com/posts/2384868174/</id>
     <published>2023-06-14T08:00:00.000Z</published>
     <updated>2023-06-14T08:00:00.000Z</updated>
     
@@ -539,7 +539,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;类的生命周期&quot;&gt;&lt;a href=&quot;#类的生命周期&quot; class=&quot;headerlink&quot; title=&quot;类的生命周期&quot;&gt;&lt;/a&gt;类的生命周期&lt;/h2&gt;&lt;p&gt;类从被加载到虚拟机内存中开始到卸载出内存为止，它的整个生命周期可以简单概括为 7</summary>
+    <summary type="html">&lt;h2 id=&quot;回顾一下字节码&quot;&gt;&lt;a href=&quot;#回顾一下字节码&quot; class=&quot;headerlink&quot; title=&quot;回顾一下字节码&quot;&gt;&lt;/a&gt;回顾一下字节码&lt;/h2&gt;&lt;p&gt;在 Java 中，JVM 可以理解的代码就叫做&lt;code&gt;字节码&lt;/code&gt;（即扩展名为</summary>
         
       
     
