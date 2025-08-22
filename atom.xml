@@ -222,6 +222,31 @@
   </entry>
   
   <entry>
+    <title>服务端如何防止订单重复支付</title>
+    <link href="https://voidbytes.com/posts/1362641175/"/>
+    <id>https://voidbytes.com/posts/1362641175/</id>
+    <published>2023-08-24T08:00:00.000Z</published>
+    <updated>2023-08-24T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>消息队列中如何保证消息的顺序性</title>
     <link href="https://voidbytes.com/posts/3216271943/"/>
     <id>https://voidbytes.com/posts/3216271943/</id>
@@ -239,31 +264,6 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;问：如何保证消息的顺序性？&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;面试官心理分析&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>服务端如何防止订单重复支付</title>
-    <link href="https://voidbytes.com/posts/1362641175/"/>
-    <id>https://voidbytes.com/posts/1362641175/</id>
-    <published>2023-08-24T08:00:00.000Z</published>
-    <updated>2023-08-24T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -473,9 +473,9 @@
   </entry>
   
   <entry>
-    <title>类加载器详解</title>
-    <link href="https://voidbytes.com/posts/3182538063/"/>
-    <id>https://voidbytes.com/posts/3182538063/</id>
+    <title>最重要的JVM参数总结</title>
+    <link href="https://voidbytes.com/posts/1352723613/"/>
+    <id>https://voidbytes.com/posts/1352723613/</id>
     <published>2023-06-14T08:00:00.000Z</published>
     <updated>2023-06-14T08:00:00.000Z</updated>
     
@@ -484,7 +484,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;回顾一下类加载过程&quot;&gt;&lt;a href=&quot;#回顾一下类加载过程&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文由 JavaGuide 翻译自 &lt;a</summary>
         
       
     
@@ -500,9 +501,9 @@
   </entry>
   
   <entry>
-    <title>最重要的JVM参数总结</title>
-    <link href="https://voidbytes.com/posts/1352723613/"/>
-    <id>https://voidbytes.com/posts/1352723613/</id>
+    <title>类加载器详解</title>
+    <link href="https://voidbytes.com/posts/3182538063/"/>
+    <id>https://voidbytes.com/posts/3182538063/</id>
     <published>2023-06-14T08:00:00.000Z</published>
     <updated>2023-06-14T08:00:00.000Z</updated>
     
@@ -511,8 +512,7 @@
       
         
         
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文由 JavaGuide 翻译自 &lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;回顾一下类加载过程&quot;&gt;&lt;a href=&quot;#回顾一下类加载过程&quot; class=&quot;headerlink&quot;</summary>
         
       
     
