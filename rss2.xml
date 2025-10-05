@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>小白的编程札记</title>
+    <link>https://voidbytes.com/</link>
+    
+    <atom:link href="https://voidbytes.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>这里是小白的小天地，简单记录自己的编程笔记、学习心得和日常点滴，分享一路成长的思考与收获。</description>
+    <pubDate>Sun, 05 Oct 2025 11:35:05 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>红米K40S屏幕损坏触控失灵0成本转移资料</title>
+      <link>https://voidbytes.com/posts/2727892536/</link>
+      <guid>https://voidbytes.com/posts/2727892536/</guid>
+      <pubDate>Sun, 05 Oct 2025 11:35:05 GMT</pubDate>
+      
+      <description>当红米K40S屏幕损坏触控失灵时，如何0成本转移手机中的重要数据的完整解决方案分享。</description>
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E5%85%B6%E4%BB%96/">其他</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E6%89%8B%E6%9C%BA/">手机</category>
+      
+      <category domain="https://voidbytes.com/tags/%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D/">数据恢复</category>
+      
+      <category domain="https://voidbytes.com/tags/%E5%B0%8F%E7%B1%B3/">小米</category>
+      
+      
+      <comments>https://voidbytes.com/posts/2727892536/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>写了个 Git 账户切换工具，顺便练了练 Flutter</title>
+      <link>https://voidbytes.com/posts/245112031/</link>
+      <guid>https://voidbytes.com/posts/245112031/</guid>
+      <pubDate>Wed, 27 Aug 2025 11:39:25 GMT</pubDate>
+      
+      <description>分享因「懒」开发 Git 账户切换工具的经历，对比命令行与 Flutter 桌面端实现方式，记录 Flutter 学习过程中的踩坑与收获。</description>
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E5%85%B6%E4%BB%96/">其他</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">环境配置</category>
+      
+      <category domain="https://voidbytes.com/tags/Flutter/">Flutter</category>
+      
+      
+      <comments>https://voidbytes.com/posts/245112031/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>学习资料推荐</title>
+      <link>https://voidbytes.com/posts/2371781713/</link>
+      <guid>https://voidbytes.com/posts/2371781713/</guid>
+      <pubDate>Sun, 10 Aug 2025 05:28:35 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;大模型&quot;&gt;&lt;a href=&quot;#大模型&quot; class=&quot;headerlink&quot; title=&quot;大模型&quot;&gt;&lt;/a&gt;大模型&lt;/h1&gt;&lt;p&gt;《从零构建大模型》&lt;/p&gt;
+&lt;p&gt;&lt;img src=</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/tags/%E4%B9%A6%E5%8D%95/">书单</category>
+      
+      <category domain="https://voidbytes.com/tags/%E7%BD%91%E8%AF%BE/">网课</category>
+      
+      
+      <comments>https://voidbytes.com/posts/2371781713/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>SSH问题经验</title>
+      <link>https://voidbytes.com/posts/187821551/</link>
+      <guid>https://voidbytes.com/posts/187821551/</guid>
+      <pubDate>Sat, 09 Aug 2025 15:58:13 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;SSH-问题经验&quot;&gt;&lt;a href=&quot;#SSH-问题经验&quot; class=&quot;headerlink&quot; title=&quot;SSH 问题经验&quot;&gt;&lt;/a&gt;SSH 问题经验&lt;/h1&gt;&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/tags/Linux/">Linux</category>
+      
+      
+      <comments>https://voidbytes.com/posts/187821551/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>SpringBoot 参数校验组件</title>
+      <link>https://voidbytes.com/posts/3028893647/</link>
+      <guid>https://voidbytes.com/posts/3028893647/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;一坨一坨的-if-else-参数校验，终于被-SpringBoot-参数校验组件整干净了！&quot;&gt;&lt;a href=&quot;#一坨一坨的-if-else-参数校验，终于被-SpringBoot-参数校验组件整干净了！&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/3028893647/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Java后端线上问题排查常用命令收藏</title>
+      <link>https://voidbytes.com/posts/1696090382/</link>
+      <guid>https://voidbytes.com/posts/1696090382/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;作者：xiaolyuh&lt;/p&gt;
+&lt;p&gt;本文来源：&lt;a href=&quot;http://r6d.cn/b97q7&quot;&gt;http://r6d.cn/b97q7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;内存瓶颈&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/1696090382/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何彻底理解红黑树</title>
+      <link>https://voidbytes.com/posts/312572753/</link>
+      <guid>https://voidbytes.com/posts/312572753/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;em&gt;作者**：linzworld&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;cnblogs.com/linzworld/p/13720477.html&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/312572753/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何使错误日志更加方便排查问题</title>
+      <link>https://voidbytes.com/posts/209595582/</link>
+      <guid>https://voidbytes.com/posts/209595582/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src= &quot;data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/209595582/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Spring 事务失效的 12 种场景</title>
+      <link>https://voidbytes.com/posts/1040342123/</link>
+      <guid>https://voidbytes.com/posts/1040342123/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/1040342123/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>服务端如何防止订单重复支付</title>
+      <link>https://voidbytes.com/posts/1362641175/</link>
+      <guid>https://voidbytes.com/posts/1362641175/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;服务端如何防止订单重复支付！&quot;&gt;&lt;a href=&quot;#服务端如何防止订单重复支付！&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/1362641175/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>消息队列中如何保证消息的顺序性</title>
+      <link>https://voidbytes.com/posts/3216271943/</link>
+      <guid>https://voidbytes.com/posts/3216271943/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文选自：advanced-java&lt;/p&gt;
+&lt;p&gt;作者：yanglbme&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;问：如何保证消息的顺序性？&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;面试官心理分析&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/3216271943/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
+      <link>https://voidbytes.com/posts/3795959674/</link>
+      <guid>https://voidbytes.com/posts/3795959674/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/3795959674/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>读 MySQL 源码再看 INSERT 加锁流程</title>
+      <link>https://voidbytes.com/posts/3984514586/</link>
+      <guid>https://voidbytes.com/posts/3984514586/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;读-MySQL-源码再看-INSERT-加锁流程&quot;&gt;&lt;a href=&quot;#读-MySQL-源码再看-INSERT-加锁流程&quot; class=&quot;headerlink&quot; title=&quot;读 MySQL 源码再看 INSERT 加锁流程&quot;&gt;&lt;/a&gt;读 MySQL 源码再看</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/3984514586/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>为什么要用消息队列？你项目中是怎么用的</title>
+      <link>https://voidbytes.com/posts/2853285209/</link>
+      <guid>https://voidbytes.com/posts/2853285209/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/2853285209/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>JDK监控和故障处理工具总结</title>
+      <link>https://voidbytes.com/posts/4058733264/</link>
+      <guid>https://voidbytes.com/posts/4058733264/</guid>
+      <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;JDK-命令行工具&quot;&gt;&lt;a href=&quot;#JDK-命令行工具&quot; class=&quot;headerlink&quot; title=&quot;JDK 命令行工具&quot;&gt;&lt;/a&gt;JDK 命令行工具&lt;/h2&gt;&lt;p&gt;这些命令在 JDK 安装目录下的 bin</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/4058733264/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Java内存区域详解</title>
+      <link>https://voidbytes.com/posts/576968662/</link>
+      <guid>https://voidbytes.com/posts/576968662/</guid>
+      <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
+&lt;p&gt;常见面试题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍下 Java</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/576968662/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>JVM线上问题排查和性能调优案例</title>
+      <link>https://voidbytes.com/posts/4053882931/</link>
+      <guid>https://voidbytes.com/posts/4053882931/</guid>
+      <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;JVM 线上问题排查和性能调优也是面试常问的一个问题，尤其是社招中大厂的面试。&lt;/p&gt;
+&lt;p&gt;这篇文章，我会分享一些我看到的相关的案例。&lt;/p&gt;
+&lt;p&gt;下面是正文。&lt;/p&gt;
+&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/4053882931/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>JVM垃圾回收详解（重点）</title>
+      <link>https://voidbytes.com/posts/152633231/</link>
+      <guid>https://voidbytes.com/posts/152633231/</guid>
+      <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/152633231/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>最重要的JVM参数总结</title>
+      <link>https://voidbytes.com/posts/1352723613/</link>
+      <guid>https://voidbytes.com/posts/1352723613/</guid>
+      <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文由 JavaGuide 翻译自 &lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/1352723613/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>大白话带你认识 JVM</title>
+      <link>https://voidbytes.com/posts/314390907/</link>
+      <guid>https://voidbytes.com/posts/314390907/</guid>
+      <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/314390907/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
