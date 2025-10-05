@@ -164,9 +164,9 @@
   </entry>
   
   <entry>
-    <title>如何彻底理解红黑树</title>
-    <link href="https://voidbytes.com/posts/312572753/"/>
-    <id>https://voidbytes.com/posts/312572753/</id>
+    <title>Spring 事务失效的 12 种场景</title>
+    <link href="https://voidbytes.com/posts/1040342123/"/>
+    <id>https://voidbytes.com/posts/1040342123/</id>
     <published>2023-08-23T16:00:00.000Z</published>
     <updated>2023-08-23T16:00:00.000Z</updated>
     
@@ -175,9 +175,32 @@
       
         
         
-    <summary type="html">&lt;p&gt;&lt;em&gt;作者**：linzworld&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;cnblogs.com/linzworld/p/13720477.html&lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</summary>
+        
+      
+    
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么要用消息队列？你项目中是怎么用的</title>
+    <link href="https://voidbytes.com/posts/2853285209/"/>
+    <id>https://voidbytes.com/posts/2853285209/</id>
+    <published>2023-08-23T16:00:00.000Z</published>
+    <updated>2023-08-23T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -216,9 +239,9 @@
   </entry>
   
   <entry>
-    <title>Spring 事务失效的 12 种场景</title>
-    <link href="https://voidbytes.com/posts/1040342123/"/>
-    <id>https://voidbytes.com/posts/1040342123/</id>
+    <title>如何彻底理解红黑树</title>
+    <link href="https://voidbytes.com/posts/312572753/"/>
+    <id>https://voidbytes.com/posts/312572753/</id>
     <published>2023-08-23T16:00:00.000Z</published>
     <updated>2023-08-23T16:00:00.000Z</updated>
     
@@ -227,7 +250,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;作者**：linzworld&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;cnblogs.com/linzworld/p/13720477.html&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -296,31 +321,6 @@
   </entry>
   
   <entry>
-    <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
-    <link href="https://voidbytes.com/posts/3795959674/"/>
-    <id>https://voidbytes.com/posts/3795959674/</id>
-    <published>2023-08-23T16:00:00.000Z</published>
-    <updated>2023-08-23T16:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-    <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
     <title>读 MySQL 源码再看 INSERT 加锁流程</title>
     <link href="https://voidbytes.com/posts/3984514586/"/>
     <id>https://voidbytes.com/posts/3984514586/</id>
@@ -346,9 +346,9 @@
   </entry>
   
   <entry>
-    <title>为什么要用消息队列？你项目中是怎么用的</title>
-    <link href="https://voidbytes.com/posts/2853285209/"/>
-    <id>https://voidbytes.com/posts/2853285209/</id>
+    <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
+    <link href="https://voidbytes.com/posts/3795959674/"/>
+    <id>https://voidbytes.com/posts/3795959674/</id>
     <published>2023-08-23T16:00:00.000Z</published>
     <updated>2023-08-23T16:00:00.000Z</updated>
     
@@ -357,7 +357,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -367,6 +367,38 @@
     
     
     <category term="转载" scheme="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java内存区域详解</title>
+    <link href="https://voidbytes.com/posts/576968662/"/>
+    <id>https://voidbytes.com/posts/576968662/</id>
+    <published>2023-06-13T16:00:00.000Z</published>
+    <updated>2023-06-13T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
+&lt;p&gt;常见面试题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍下 Java</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
     
   </entry>
   
@@ -398,9 +430,9 @@
   </entry>
   
   <entry>
-    <title>Java内存区域详解</title>
-    <link href="https://voidbytes.com/posts/576968662/"/>
-    <id>https://voidbytes.com/posts/576968662/</id>
+    <title>JVM垃圾回收详解（重点）</title>
+    <link href="https://voidbytes.com/posts/152633231/"/>
+    <id>https://voidbytes.com/posts/152633231/</id>
     <published>2023-06-13T16:00:00.000Z</published>
     <updated>2023-06-13T16:00:00.000Z</updated>
     
@@ -411,10 +443,7 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
-&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM 高级特性与最佳实践》进行总结补充。&lt;/p&gt;
-&lt;p&gt;常见面试题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;介绍下 Java</summary>
+&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM</summary>
         
       
     
@@ -460,9 +489,9 @@
   </entry>
   
   <entry>
-    <title>JVM垃圾回收详解（重点）</title>
-    <link href="https://voidbytes.com/posts/152633231/"/>
-    <id>https://voidbytes.com/posts/152633231/</id>
+    <title>大白话带你认识 JVM</title>
+    <link href="https://voidbytes.com/posts/314390907/"/>
+    <id>https://voidbytes.com/posts/314390907/</id>
     <published>2023-06-13T16:00:00.000Z</published>
     <updated>2023-06-13T16:00:00.000Z</updated>
     
@@ -472,8 +501,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;如果没有特殊说明，都是针对的是 HotSpot 虚拟机。&lt;/p&gt;
-&lt;p&gt;本文基于《深入理解 Java 虚拟机：JVM</summary>
+&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
         
       
     
@@ -502,34 +530,6 @@
         
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;本文由 JavaGuide 翻译自 &lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://voidbytes.com/tags/Java/"/>
-    
-    <category term="JVM" scheme="https://voidbytes.com/tags/JVM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大白话带你认识 JVM</title>
-    <link href="https://voidbytes.com/posts/314390907/"/>
-    <id>https://voidbytes.com/posts/314390907/</id>
-    <published>2023-06-13T16:00:00.000Z</published>
-    <updated>2023-06-13T16:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;来自&lt;a href=&quot;https://juejin.im/user/5c2400afe51d45451758aa96&quot;&gt;说出你的愿望吧丷&lt;/a&gt;投稿，原文地址：&lt;a</summary>
         
       
     

@@ -172,18 +172,16 @@
     </item>
     
     <item>
-      <title>如何彻底理解红黑树</title>
-      <link>https://voidbytes.com/posts/312572753/</link>
-      <guid>https://voidbytes.com/posts/312572753/</guid>
+      <title>Spring 事务失效的 12 种场景</title>
+      <link>https://voidbytes.com/posts/1040342123/</link>
+      <guid>https://voidbytes.com/posts/1040342123/</guid>
       <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;p&gt;&lt;em&gt;作者**：linzworld&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;cnblogs.com/linzworld/p/13720477.html&lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</description>
+      <description>&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</description>
           
         
       
@@ -196,7 +194,34 @@
       <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
       
       
-      <comments>https://voidbytes.com/posts/312572753/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/1040342123/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>为什么要用消息队列？你项目中是怎么用的</title>
+      <link>https://voidbytes.com/posts/2853285209/</link>
+      <guid>https://voidbytes.com/posts/2853285209/</guid>
+      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
+      
+      
+      <comments>https://voidbytes.com/posts/2853285209/#disqus_thread</comments>
       
     </item>
     
@@ -228,16 +253,18 @@
     </item>
     
     <item>
-      <title>Spring 事务失效的 12 种场景</title>
-      <link>https://voidbytes.com/posts/1040342123/</link>
-      <guid>https://voidbytes.com/posts/1040342123/</guid>
+      <title>如何彻底理解红黑树</title>
+      <link>https://voidbytes.com/posts/312572753/</link>
+      <guid>https://voidbytes.com/posts/312572753/</guid>
       <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;h1 id=&quot;太坑了！聊聊-Spring-事务失效的-12-种场景&quot;&gt;&lt;a href=&quot;#太坑了！聊聊-Spring-事务失效的-12-种场景&quot; class=&quot;headerlink&quot; title=&quot;太坑了！聊聊 Spring 事务失效的 12 种场景&quot;&gt;&lt;/a&gt;太坑了！聊聊</description>
+      <description>&lt;p&gt;&lt;em&gt;作者**：linzworld&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;cnblogs.com/linzworld/p/13720477.html&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</description>
           
         
       
@@ -250,7 +277,7 @@
       <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
       
       
-      <comments>https://voidbytes.com/posts/1040342123/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/312572753/#disqus_thread</comments>
       
     </item>
     
@@ -314,33 +341,6 @@
     </item>
     
     <item>
-      <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
-      <link>https://voidbytes.com/posts/3795959674/</link>
-      <guid>https://voidbytes.com/posts/3795959674/</guid>
-      <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://voidbytes.com/categories/%E8%BD%AC%E8%BD%BD/">转载</category>
-      
-      
-      <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
-      
-      
-      <comments>https://voidbytes.com/posts/3795959674/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>读 MySQL 源码再看 INSERT 加锁流程</title>
       <link>https://voidbytes.com/posts/3984514586/</link>
       <guid>https://voidbytes.com/posts/3984514586/</guid>
@@ -368,16 +368,16 @@
     </item>
     
     <item>
-      <title>为什么要用消息队列？你项目中是怎么用的</title>
-      <link>https://voidbytes.com/posts/2853285209/</link>
-      <guid>https://voidbytes.com/posts/2853285209/</guid>
+      <title>高并发场景下，到底先更新缓存还是先更新数据库？</title>
+      <link>https://voidbytes.com/posts/3795959674/</link>
+      <guid>https://voidbytes.com/posts/3795959674/</guid>
       <pubDate>Wed, 23 Aug 2023 16:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;h1 id=&quot;为什么要用消息队列？你项目中是怎么用的？&quot;&gt;&lt;a href=&quot;#为什么要用消息队列？你项目中是怎么用的？&quot; class=&quot;headerlink&quot;</description>
+      <description>&lt;h1 id=&quot;高并发场景下，到底先更新缓存还是先更新数据库？&quot;&gt;&lt;a href=&quot;#高并发场景下，到底先更新缓存还是先更新数据库？&quot; class=&quot;headerlink&quot;</description>
           
         
       
@@ -390,36 +390,7 @@
       <category domain="https://voidbytes.com/tags/%E8%BD%AC%E8%BD%BD/">转载</category>
       
       
-      <comments>https://voidbytes.com/posts/2853285209/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>JDK监控和故障处理工具总结</title>
-      <link>https://voidbytes.com/posts/4058733264/</link>
-      <guid>https://voidbytes.com/posts/4058733264/</guid>
-      <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;JDK-命令行工具&quot;&gt;&lt;a href=&quot;#JDK-命令行工具&quot; class=&quot;headerlink&quot; title=&quot;JDK 命令行工具&quot;&gt;&lt;/a&gt;JDK 命令行工具&lt;/h2&gt;&lt;p&gt;这些命令在 JDK 安装目录下的 bin</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://voidbytes.com/categories/Java/">Java</category>
-      
-      
-      <category domain="https://voidbytes.com/tags/Java/">Java</category>
-      
-      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
-      
-      
-      <comments>https://voidbytes.com/posts/4058733264/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/3795959674/#disqus_thread</comments>
       
     </item>
     
@@ -458,19 +429,16 @@
     </item>
     
     <item>
-      <title>JVM线上问题排查和性能调优案例</title>
-      <link>https://voidbytes.com/posts/4053882931/</link>
-      <guid>https://voidbytes.com/posts/4053882931/</guid>
+      <title>JDK监控和故障处理工具总结</title>
+      <link>https://voidbytes.com/posts/4058733264/</link>
+      <guid>https://voidbytes.com/posts/4058733264/</guid>
       <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;p&gt;JVM 线上问题排查和性能调优也是面试常问的一个问题，尤其是社招中大厂的面试。&lt;/p&gt;
-&lt;p&gt;这篇文章，我会分享一些我看到的相关的案例。&lt;/p&gt;
-&lt;p&gt;下面是正文。&lt;/p&gt;
-&lt;p&gt;&lt;a</description>
+      <description>&lt;h2 id=&quot;JDK-命令行工具&quot;&gt;&lt;a href=&quot;#JDK-命令行工具&quot; class=&quot;headerlink&quot; title=&quot;JDK 命令行工具&quot;&gt;&lt;/a&gt;JDK 命令行工具&lt;/h2&gt;&lt;p&gt;这些命令在 JDK 安装目录下的 bin</description>
           
         
       
@@ -485,7 +453,7 @@
       <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
       
       
-      <comments>https://voidbytes.com/posts/4053882931/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/4058733264/#disqus_thread</comments>
       
     </item>
     
@@ -521,17 +489,19 @@
     </item>
     
     <item>
-      <title>最重要的JVM参数总结</title>
-      <link>https://voidbytes.com/posts/1352723613/</link>
-      <guid>https://voidbytes.com/posts/1352723613/</guid>
+      <title>JVM线上问题排查和性能调优案例</title>
+      <link>https://voidbytes.com/posts/4053882931/</link>
+      <guid>https://voidbytes.com/posts/4053882931/</guid>
       <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
       
         
         
           
           
-      <description>&lt;blockquote&gt;
-&lt;p&gt;本文由 JavaGuide 翻译自 &lt;a</description>
+      <description>&lt;p&gt;JVM 线上问题排查和性能调优也是面试常问的一个问题，尤其是社招中大厂的面试。&lt;/p&gt;
+&lt;p&gt;这篇文章，我会分享一些我看到的相关的案例。&lt;/p&gt;
+&lt;p&gt;下面是正文。&lt;/p&gt;
+&lt;p&gt;&lt;a</description>
           
         
       
@@ -546,7 +516,7 @@
       <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
       
       
-      <comments>https://voidbytes.com/posts/1352723613/#disqus_thread</comments>
+      <comments>https://voidbytes.com/posts/4053882931/#disqus_thread</comments>
       
     </item>
     
@@ -577,6 +547,36 @@
       
       
       <comments>https://voidbytes.com/posts/314390907/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>最重要的JVM参数总结</title>
+      <link>https://voidbytes.com/posts/1352723613/</link>
+      <guid>https://voidbytes.com/posts/1352723613/</guid>
+      <pubDate>Tue, 13 Jun 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文由 JavaGuide 翻译自 &lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://voidbytes.com/categories/Java/">Java</category>
+      
+      
+      <category domain="https://voidbytes.com/tags/Java/">Java</category>
+      
+      <category domain="https://voidbytes.com/tags/JVM/">JVM</category>
+      
+      
+      <comments>https://voidbytes.com/posts/1352723613/#disqus_thread</comments>
       
     </item>
     
